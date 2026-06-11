@@ -2,24 +2,23 @@
 
 Welcome to my LeetCode Solutions repository.
 
-This repository contains my solutions to LeetCode problems solved as part of my **#100DaysOfCode** challenge and interview preparation journey.
+This repository contains my solutions to LeetCode problems solved using Java as part of my Data Structures and Algorithms learning journey and interview preparation.
 
 ---
 
-## 🎯 Goals
+## 🎯 Objectives
 
-* Solve 100+ LeetCode problems
-* Strengthen Data Structures & Algorithms
 * Improve problem-solving skills
-* Prepare for internships and placements
-* Build consistency through daily coding
+* Strengthen DSA concepts
+* Practice coding interview questions
+* Track learning progress
+* Build consistency in competitive programming
 
 ---
 
 ## 📚 Topics Covered
 
 * Arrays
-* ArrayList
 * Strings
 * Linked Lists
 * Stack
@@ -34,17 +33,20 @@ This repository contains my solutions to LeetCode problems solved as part of my 
 
 ---
 
-## 🔥 #100DaysOfCode Progress
+## 📂 Repository Structure
 
-* [ ] Day 1
-* [ ] Day 2
-* [ ] Day 3
-* [ ] Day 4
-* [ ] Day 5
-
-...
-
-* [ ] Day 100
+```text
+leetcode-solutions/
+│
+├── Arrays/
+├── Strings/
+├── LinkedList/
+├── Stack/
+├── Queue/
+├── Trees/
+├── Graphs/
+└── DynamicProgramming/
+```
 
 ---
 
@@ -60,9 +62,8 @@ This repository contains my solutions to LeetCode problems solved as part of my 
 
 * B.Tech Computer Science Engineering Student
 * Java Developer
-* Frontend Developer
 * DSA Learner
 
 ---
 
-⭐ Consistency over perfection. One problem at a time.
+⭐ Learning one problem at a time and improving every day.
