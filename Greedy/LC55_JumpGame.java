@@ -1,8 +1,19 @@
 /*
-LeetCode #55 - Jump Game
-Difficulty: Medium
-Topic: Greedy
-*/
+ * LeetCode Problem #55 - Jump Game
+ *
+ * Difficulty: Medium
+ * Topic: Greedy
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/jump-game/
+ *
+ * Approach:
+ * Track the farthest reachable index while
+ * traversing the array.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
 
 class Solution {
     public boolean canJump(int[] nums) {
