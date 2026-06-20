@@ -2,21 +2,21 @@
 
 Welcome to my LeetCode Solutions Repository.
 
-This repository contains my solutions to LeetCode problems solved during my Data Structures & Algorithms journey using Java. The goal of this repository is to improve problem-solving skills, strengthen DSA concepts, and maintain a structured record of learning progress.
+This repository contains my solutions to LeetCode problems solved using **Java** during my Data Structures & Algorithms journey. It serves as a structured record of my learning progress, problem-solving practice, and interview preparation.
 
 ---
 
-## 🎯 Goals
+## 🎯 Objectives
 
 * Strengthen Data Structures & Algorithms concepts
-* Improve problem-solving skills
-* Prepare for coding interviews and placement drives
-* Build consistency through daily practice
-* Learn different approaches and optimizations
+* Improve analytical and problem-solving skills
+* Prepare for coding interviews and placement opportunities
+* Maintain consistency through daily coding practice
+* Learn optimized approaches and common problem-solving patterns
 
 ---
 
-## 💻 Language Used
+## 💻 Language
 
 * Java
 
@@ -33,9 +33,9 @@ This repository contains my solutions to LeetCode problems solved during my Data
 | Queue               | 0               |
 | Trees               | 0               |
 | Graphs              | 0               |
-| Dynamic Programming | 0               |
+| Dynamic Programming | 1               |
 | Greedy              | 1               |
-| Total               | 5               |
+| Total               | 6               |
 
 ---
 
@@ -43,14 +43,24 @@ This repository contains my solutions to LeetCode problems solved during my Data
 
 ### Arrays
 
-* Missing Number
-* Remove Element
-* Plus One
-* Transpose Matrix
+| LeetCode # | Problem          |
+| ---------- | ---------------- |
+| 268        | Missing Number   |
+| 27         | Remove Element   |
+| 66         | Plus One         |
+| 867        | Transpose Matrix |
 
 ### Greedy
 
-* Jump Game
+| LeetCode # | Problem   |
+| ---------- | --------- |
+| 55         | Jump Game |
+
+### Dynamic Programming
+
+| LeetCode # | Problem         |
+| ---------- | --------------- |
+| 213        | House Robber II |
 
 ---
 
@@ -60,44 +70,45 @@ This repository contains my solutions to LeetCode problems solved during my Data
 LeetCode-Solutions
 │
 ├── Arrays
-│   ├── MissingNumber.java
-│   ├── RemoveElement.java
-│   ├── PlusOne.java
-│   └── TransposeMatrix.java
+│   ├── LC268_MissingNumber.java
+│   ├── LC27_RemoveElement.java
+│   ├── LC66_PlusOne.java
+│   └── LC867_TransposeMatrix.java
 │
 ├── Greedy
-│   └── JumpGame.java
+│   └── LC55_JumpGame.java
+│
+├── DynamicProgramming
+│   └── LC213_HouseRobberII.java
 │
 ├── Strings
 ├── LinkedList
 ├── Stack
 ├── Queue
 ├── Trees
-├── Graphs
-└── DynamicProgramming
+└── Graphs
 ```
 
 ---
 
-## 🚀 Current Target
+## 🚀 Current Targets
 
-* Solve 200+ LeetCode Problems
-* Practice Daily
-* Learn Patterns and Optimized Solutions
-* Improve Coding Interview Readiness
+* Solve 200+ LeetCode problems
+* Build strong DSA foundations
+* Master common interview patterns
+* Maintain a daily coding habit
+* Improve coding speed and optimization skills
 
 ---
 
-## 📈 Learning Journey
+## 📚 Currently Learning
 
-Currently focusing on:
-
-* Arrays
-* ArrayList
-* Strings
+* Data Structures & Algorithms in Java
 * Problem Solving Patterns
-* LeetCode Daily Practice
-* Java DSA
+* Dynamic Programming
+* Greedy Algorithms
+* LeetCode Daily Challenges
+* Interview Preparation
 
 ---
 
@@ -105,17 +116,18 @@ Currently focusing on:
 
 * Java DSA Repository
 * 100 Days of Code Challenge
+* Personal Portfolio Website
 
 ---
 
 ## 👩‍💻 About Me
 
-Lavanya Agrawal
+**Lavanya Agrawal**
 
-B.Tech Computer Science Engineering Student
+B.Tech Computer Science Engineering Student at UPES, Dehradun
 
-Java Developer | Frontend Developer | DSA Learner | Open Source Contributor
+Java Developer • Frontend Developer • DSA Learner • Open Source Contributor 🦈
 
 ---
 
-### ⭐ Consistency is more important than intensity. One problem every day leads to big results.
+### ⭐ One problem at a time. One step closer to becoming a better engineer.
