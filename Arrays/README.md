@@ -16,17 +16,19 @@ Arrays are one of the most fundamental data structures and form the basis for un
 * Sliding Window
 * Matrix Operations
 * Frequency Counting
+* Prefix & Suffix Products
 
 ---
 
 ## ✅ Solved Problems
 
-| #   | Problem          | Difficulty |
-| --- | ---------------- | ---------- |
-| 268 | Missing Number   | Easy       |
-| 27  | Remove Element   | Easy       |
-| 66  | Plus One         | Easy       |
-| 867 | Transpose Matrix | Easy       |
+| #   | Problem                       | Difficulty |
+| --- | ----------------------------- | ---------- |
+| 268 | Missing Number                | Easy       |
+| 27  | Remove Element                | Easy       |
+| 66  | Plus One                      | Easy       |
+| 867 | Transpose Matrix              | Easy       |
+| 238 | Product of Array Except Self  | Medium     |
 
 ---
 
@@ -36,12 +38,23 @@ Arrays are one of the most fundamental data structures and form the basis for un
 * Improve problem-solving techniques
 * Learn optimized approaches
 * Build a strong DSA foundation
+* Understand Prefix and Suffix Array concepts
 
 ---
 
 ## 💻 Language
 
 Java
+
+---
+
+## 📈 Progress
+
+Problems Solved: **5**
+
+Easy: **4**  
+Medium: **1**  
+Hard: **0**
 
 ---
 
