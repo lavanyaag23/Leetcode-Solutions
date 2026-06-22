@@ -39,7 +39,8 @@ O(n)
 
 O(1) Extra Space (excluding output array)
 
-## LeetCode 
+## LeetCode link: https://leetcode.com/problems/product-of-array-except-self/
+
 class Solution {
     public int[] productExceptSelf(int[] nums) {
 
@@ -63,7 +64,6 @@ class Solution {
     }
 }
 
-https://leetcode.com/problems/product-of-array-except-self/
 
 ---
 ⭐ Solved as part of my DSA & LeetCode journey.
