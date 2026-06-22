@@ -26,8 +26,8 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | Topic               | Problems Solved |
 | ------------------- | --------------- |
-| Arrays              | 4               |
-| Strings             | 0               |
+| Arrays              | 5               |
+| Strings             | 1               |
 | Linked List         | 0               |
 | Stack               | 0               |
 | Queue               | 0               |
@@ -35,20 +35,26 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Graphs              | 0               |
 | Dynamic Programming | 1               |
 | Greedy              | 1               |
-| Total               | 6               |
-
+| Total               | 8               |
 ---
 
 ## ✅ Solved Problems
 
 ### Arrays
 
+| LeetCode # | Problem                      |
+| ---------- | ---------------------------- |
+| 268        | Missing Number               |
+| 27         | Remove Element               |
+| 66         | Plus One                     |
+| 867        | Transpose Matrix             |
+| 238        | Product of Array Except Self |
+
+### Strings
+
 | LeetCode # | Problem          |
 | ---------- | ---------------- |
-| 268        | Missing Number   |
-| 27         | Remove Element   |
-| 66         | Plus One         |
-| 867        | Transpose Matrix |
+| 125        | Valid Palindrome |
 
 ### Greedy
 
@@ -128,6 +134,4 @@ B.Tech Computer Science Engineering Student at UPES, Dehradun
 
 Java Developer • Frontend Developer • DSA Learner • Open Source Contributor 🦈
 
----
-
-### ⭐ One problem at a time. One step closer to becoming a better engineer.
+---### ⭐ Consistency beats intensity. One problem every day leads to big results.
