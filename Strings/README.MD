@@ -37,7 +37,7 @@ This folder contains LeetCode problems related to String Manipulation, Two Point
 
 ## 🚀 Progress
 
-Problems Solved: **1**
+Problems Solved: **2**
 
 ---
 
