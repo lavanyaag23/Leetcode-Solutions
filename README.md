@@ -27,7 +27,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Topic               | Problems Solved |
 | ------------------- | --------------- |
 | Arrays              | 5               |
-| Strings             | 1               |
+| Strings             | 2               |
 | Linked List         | 0               |
 | Stack               | 0               |
 | Queue               | 0               |
@@ -35,7 +35,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Graphs              | 0               |
 | Dynamic Programming | 1               |
 | Greedy              | 1               |
-| Total               | 8               |
+| Total               | 9               |
 ---
 
 ## ✅ Solved Problems
@@ -55,6 +55,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | LeetCode # | Problem          |
 | ---------- | ---------------- |
 | 125        | Valid Palindrome |
+| 58         | Length of Last Word |
 
 ### Greedy
 
