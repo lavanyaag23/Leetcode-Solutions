@@ -84,7 +84,8 @@ LeetCode-Solutions
 │   └── LC238_ProductOfArrayExceptSelf.java
 │
 ├── Strings
-│   └── LC125_ValidPalindrome.java
+│   ├── LC125_ValidPalindrome.java
+│   └── LC58_LengthOfLastWord.java
 │
 ├── Greedy
 │   └── LC55_JumpGame.java
@@ -97,17 +98,17 @@ LeetCode-Solutions
 ├── Queue
 ├── Trees
 └── Graphs
-
+```
 
 ---
 
 ## 🚀 Current Targets
 
-* Solve 200+ LeetCode problems
-* Build strong DSA foundations
-* Master common interview patterns
-* Maintain a daily coding habit
-* Improve coding speed and optimization skills
+* Solve 200+ LeetCode Problems
+* Build Strong DSA Foundations
+* Master Common Interview Patterns
+* Maintain a Daily Coding Habit
+* Improve Coding Speed and Optimization Skills
 
 ---
 
@@ -126,7 +127,7 @@ LeetCode-Solutions
 
 * Java DSA Repository
 * 100 Days of Code Challenge
-* Personal Portfolio Website
+
 
 ---
 
@@ -138,4 +139,6 @@ B.Tech Computer Science Engineering Student at UPES, Dehradun
 
 Java Developer • Frontend Developer • DSA Learner • Open Source Contributor 🦈
 
----### ⭐ Consistency beats intensity. One problem every day leads to big results.
+---
+
+### ⭐ Consistency beats intensity. One problem every day leads to big results.
