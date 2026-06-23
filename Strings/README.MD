@@ -22,6 +22,7 @@ This folder contains LeetCode problems related to String Manipulation, Two Point
 | #   | Problem          | Difficulty |
 | --- | ---------------- | ---------- |
 | 125 | Valid Palindrome | 🟢 Easy    |
+| 58 | Length of Last Word | 🟢 Easy  |
 
 ---
 
