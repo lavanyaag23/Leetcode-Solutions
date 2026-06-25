@@ -27,7 +27,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Topic               | Problems Solved |
 | ------------------- | --------------- |
 | Arrays              | 5               |
-| Strings             | 2               |
+| Strings             | 4               |
 | Linked List         | 0               |
 | Stack               | 0               |
 | Queue               | 0               |
@@ -35,7 +35,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Graphs              | 0               |
 | Dynamic Programming | 1               |
 | Greedy              | 1               |
-| Total               | 9               |
+| Total               | 11              |
 ---
 
 ## ✅ Solved Problems
@@ -56,6 +56,8 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | ---------- | ---------------- |
 | 125        | Valid Palindrome |
 | 58         | Length of Last Word |
+| 205 | Isomorphic Strings |
+| 28 | Find the Index of the First Occurrence in a String |
 
 ### Greedy
 
