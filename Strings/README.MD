@@ -23,6 +23,8 @@ This folder contains LeetCode problems related to String Manipulation, Two Point
 | --- | ---------------- | ---------- |
 | 125 | Valid Palindrome | 🟢 Easy    |
 | 58 | Length of Last Word | 🟢 Easy  |
+| 205 | Isomorphic Strings | 🟢 Easy |
+| 28 | Find the Index of the First Occurrence in a String | 🟢 Easy |
 
 ---
 
@@ -37,7 +39,7 @@ This folder contains LeetCode problems related to String Manipulation, Two Point
 
 ## 🚀 Progress
 
-Problems Solved: **2**
+Problems Solved: **4**
 
 ---
 
