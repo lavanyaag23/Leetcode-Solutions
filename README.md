@@ -88,7 +88,8 @@ LeetCode-Solutions
 ├── Strings
 │   ├── LC125_ValidPalindrome.java
 │   └── LC58_LengthOfLastWord.java
-│
+|   ├── LC125_ValidPalindrome.java    
+│   |── LC205_IsomorphicStrings.java
 ├── Greedy
 │   └── LC55_JumpGame.java
 │
