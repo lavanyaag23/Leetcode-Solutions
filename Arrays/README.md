@@ -17,6 +17,8 @@ Arrays are one of the most fundamental data structures and form the basis for un
 * Matrix Operations
 * Frequency Counting
 * Prefix & Suffix Products
+* Kadane’s Algorithm
+* Hashing Techniques
 
 ---
 
@@ -31,7 +33,9 @@ Arrays are one of the most fundamental data structures and form the basis for un
 | 238 | Product of Array Except Self  | Medium     |
 | 1   | Two Sum                         | Easy     |
 | 121 | Best Time to Buy and Sell Stock | Easy     |
-
+| 53	| Maximum Subarray               | Medium    |
+| 217	| Contains Duplicate	           | Easy      |
+| 283	| Move Zeroes	                   | Easy      |
 
 ---
 
@@ -53,10 +57,10 @@ Java
 
 ## 📈 Progress
 
-Problems Solved: **7**
+Problems Solved: **10**
 
-Easy: **6**  
-Medium: **1**  
+Easy: **7**  
+Medium: **3**  
 Hard: **0**
 
 ---
