@@ -30,6 +30,9 @@ Arrays are one of the most fundamental data structures and form the basis for un
 | 66  | Plus One                      | Easy       |
 | 867 | Transpose Matrix              | Easy       |
 | 238 | Product of Array Except Self  | Medium     |
+| 1   | Two Sum                         | Easy     |
+| 121 | Best Time to Buy and Sell Stock | Easy     |
+
 
 ---
 
@@ -51,9 +54,9 @@ Java
 
 ## 📈 Progress
 
-Problems Solved: **5**
+Problems Solved: **7**
 
-Easy: **4**  
+Easy: **6**  
 Medium: **1**  
 Hard: **0**
 
