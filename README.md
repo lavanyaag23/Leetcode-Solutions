@@ -42,15 +42,19 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ### Arrays
 
-| LeetCode # | Problem                      |
-| ---------- | ---------------------------- |
-| 268        | Missing Number               |
-| 27         | Remove Element               |
-| 66         | Plus One                     |
-| 867        | Transpose Matrix             |
-| 238        | Product of Array Except Self |
-|  1	       | Two Sum                      |
-| 121	       |Best Time to Buy and Sell Stock|
+| LeetCode # | Problem                         |
+| ---------- | ------------------------------- |
+| 268        | Missing Number                  |
+| 27         | Remove Element                  |
+| 66         | Plus One                        |
+| 867        | Transpose Matrix                |
+| 238        | Product of Array Except Self    |
+| 1          | Two Sum                         |
+| 121        | Best Time to Buy and Sell Stock |
+| 53         | Maximum Subarray                |
+| 217        | Contains Duplicate              |
+| 283        | Move Zeroes                     |
+
 
 ### Strings
 
@@ -88,8 +92,10 @@ LeetCode-Solutions
 │   ├── LC867_TransposeMatrix.java
 │   ├── LC238_ProductOfArrayExceptSelf.java
 │   ├── LC1_TwoSum.java
-│   └── LC121_BestTimeToBuySellStock.java
-│
+│   ├── LC121_BestTimeToBuySellStock.java
+│   ├── LC53_MaximumSubarray.java
+│   ├── LC217_ContainsDuplicate.java
+│   └── LC283_MoveZeroes.java
 ├── Strings
 │   ├── LC125_ValidPalindrome.java
 │   ├── LC58_LengthOfLastWord.java
