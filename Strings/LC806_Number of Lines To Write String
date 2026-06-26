@@ -1,0 +1,39 @@
+/*
+ * LeetCode Problem #806 - Number of Lines To Write String
+ *
+ * Difficulty: Easy
+ * Topic: Strings, Simulation
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/number-of-lines-to-write-string/
+ *
+ * Approach:
+ * Traverse the string and keep adding character widths.
+ * If width exceeds 100, move to next line and reset width.
+ * Keep track of total lines and last line width.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+
+class Solution {
+    public int[] numberOfLines(int[] widths, String s) {
+
+        int lines = 1;
+        int currWidth = 0;
+
+        for (char ch : s.toCharArray()) {
+
+            int w = widths[ch - 'a'];
+
+            if (currWidth + w > 100) {
+                lines++;
+                currWidth = w;
+            } else {
+                currWidth += w;
+            }
+        }
+
+        return new int[]{lines, currWidth};
+    }
+}
