@@ -1,0 +1,35 @@
+/*
+ * LeetCode Problem #283 - Move Zeroes
+ *
+ * Difficulty: Easy
+ * Topic: Arrays, Two Pointers
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/move-zeroes/
+ *
+ * Approach:
+ * Use a pointer to place all non-zero elements at the front.
+ * Fill remaining positions with zero.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+
+class Solution {
+    public void moveZeroes(int[] nums) {
+
+        int index = 0;
+
+        // Move all non-zero elements forward
+        for (int num : nums) {
+            if (num != 0) {
+                nums[index++] = num;
+            }
+        }
+
+        // Fill remaining with zeros
+        while (index < nums.length) {
+            nums[index++] = 0;
+        }
+    }
+}
