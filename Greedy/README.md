@@ -1,64 +1,88 @@
-# LeetCode #55 - Jump Game
+# Greedy Algorithms
 
-## Problem Statement
+This folder contains solutions to LeetCode problems related to **Greedy Algorithms** implemented in Java.
+
+Greedy algorithms build up a solution step by step, always choosing the option that looks best at the moment. They are efficient and often used for optimization problems.
+
+---
+
+## 📚 Topics Covered
+
+* Array-based Greedy Problems
+* Interval Problems
+* Jump Game Variations
+* Maximum/Minimum Optimization Problems
+* Scheduling Problems
+* Partitioning Problems
+
+---
+
+## ✅ Solved Problems
+
+| #   | Problem        | Difficulty |
+|-----|----------------|------------|
+| 55  | Jump Game      | Medium     |
+
+---
+
+## 🎯 Learning Objectives
+
+* Understand greedy decision-making strategy
+* Learn how to identify optimal local choices
+* Improve array traversal techniques
+* Solve reachability and optimization problems
+* Distinguish between greedy and dynamic programming approaches
+
+---
+
+## 💡 Key Concepts
+
+* **Farthest Reach Concept**
+* **Local vs Global Optimization**
+* **Single Pass Array Traversal**
+* **Early Termination Condition**
+
+---
+
+## 🚀 Problem: LeetCode #55 - Jump Game
+
+### 🧩 Problem Statement
 
 You are given an integer array `nums`.
 
-Each element in the array represents the maximum jump length from that position.
+Each element represents the maximum jump length from that position.
 
-Determine whether you can reach the last index starting from the first index.
-
-### Example 1
-
-```text
-Input: nums = [2,3,1,1,4]
-Output: true
-```
-
-### Example 2
-
-```text
-Input: nums = [3,2,1,0,4]
-Output: false
-```
+Return `true` if you can reach the last index starting from index `0`, otherwise return `false`.
 
 ---
 
-## Approach
+### 🧠 Approach (Greedy)
 
-This problem can be solved efficiently using a **Greedy Algorithm**.
-
-* Keep track of the farthest index that can be reached.
+* Maintain a variable `maxReach` to track the farthest index you can reach.
 * Iterate through the array.
-* If the current index is beyond the farthest reachable index, reaching the end is impossible.
-* Update the farthest reachable index at each step.
-* If the farthest reachable index reaches or exceeds the last index, return `true`.
+* If the current index is greater than `maxReach`, return `false`.
+* Update `maxReach = max(maxReach, i + nums[i])`.
+* If `maxReach >= last index`, return `true`.
 
 ---
 
-## Complexity Analysis
+### ⚙️ Algorithm Steps
+
+1. Initialize `maxReach = 0`
+2. Traverse the array from left to right
+3. If `i > maxReach`, return `false`
+4. Update `maxReach`
+5. If `maxReach >= n-1`, return `true`
+
+---
+
+### 📊 Complexity Analysis
 
 * **Time Complexity:** O(n)
 * **Space Complexity:** O(1)
 
 ---
 
-## Concepts Used
+## 📌 Example
 
-* Arrays
-* Greedy Algorithm
-* Problem Solving
-
----
-
-## LeetCode Details
-
-* Problem Number: 55
-* Difficulty: Medium
-* Topic: Greedy
-
----
-
-## Solution Language
-
-Java
+### Input
