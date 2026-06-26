@@ -1,0 +1,40 @@
+/*
+ * LeetCode Problem #53 - Maximum Subarray
+ *
+ * Difficulty: Medium
+ * Topic: Arrays, Kadane's Algorithm
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/maximum-subarray/
+ *
+ * Approach:
+ * Use Kadane's Algorithm.
+ * Keep track of current sum and maximum sum.
+ * If current sum becomes negative, reset it to 0.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+
+class Solution {
+    public int maxSubArray(int[] nums) {
+
+        int currSum = 0;
+        int maxSum = Integer.MIN_VALUE;
+
+        for (int num : nums) {
+
+            currSum += num;
+
+            if (currSum > maxSum) {
+                maxSum = currSum;
+            }
+
+            if (currSum < 0) {
+                currSum = 0;
+            }
+        }
+
+        return maxSum;
+    }
+}
