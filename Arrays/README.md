@@ -8,7 +8,15 @@ Arrays are one of the most fundamental data structures and form the basis for un
 
 ## 📚 Topics Covered
 
-* Array Traversal * Searching * Sorting * Prefix Sum * Two Pointers * Sliding Window * Matrix Operations * Frequency Counting * Prefix & Suffix Products
+* Array Traversal
+* Searching
+* Sorting
+* Prefix Sum
+* Two Pointers
+* Sliding Window
+* Matrix Operations
+* Frequency Counting
+* Prefix & Suffix Products
 
 ---
 
