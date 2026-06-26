@@ -26,8 +26,8 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | Topic               | Problems Solved |
 | ------------------- | --------------- |
-| Arrays              | 5               |
-| Strings             | 4               |
+| Arrays              | 7               |
+| Strings             | 5               |
 | Linked List         | 0               |
 | Stack               | 0               |
 | Queue               | 0               |
@@ -35,7 +35,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Graphs              | 0               |
 | Dynamic Programming | 1               |
 | Greedy              | 1               |
-| Total               | 11              |
+| Total               | 14              |
 ---
 
 ## ✅ Solved Problems
@@ -49,6 +49,8 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 66         | Plus One                     |
 | 867        | Transpose Matrix             |
 | 238        | Product of Array Except Self |
+|  1	       | Two Sum                      |
+| 121	       |Best Time to Buy and Sell Stock|
 
 ### Strings
 
@@ -58,6 +60,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 58         | Length of Last Word |
 | 205 | Isomorphic Strings |
 | 28 | Find the Index of the First Occurrence in a String |
+| 806 | Number of Lines To Write String |
 
 ### Greedy
 
@@ -83,13 +86,17 @@ LeetCode-Solutions
 │   ├── LC27_RemoveElement.java
 │   ├── LC66_PlusOne.java
 │   ├── LC867_TransposeMatrix.java
-│   └── LC238_ProductOfArrayExceptSelf.java
+│   ├── LC238_ProductOfArrayExceptSelf.java
+│   ├── LC1_TwoSum.java
+│   └── LC121_BestTimeToBuySellStock.java
 │
 ├── Strings
 │   ├── LC125_ValidPalindrome.java
-│   └── LC58_LengthOfLastWord.java
-|   ├── LC125_ValidPalindrome.java    
-│   |── LC205_IsomorphicStrings.java
+│   ├── LC58_LengthOfLastWord.java
+│   ├── LC205_IsomorphicStrings.java
+│   ├── LC28_FirstOccurrenceString.java
+│   └── LC806_NumberOfLinesToWriteString.java
+│
 ├── Greedy
 │   └── LC55_JumpGame.java
 │
@@ -101,6 +108,7 @@ LeetCode-Solutions
 ├── Queue
 ├── Trees
 └── Graphs
+
 ```
 
 ---
