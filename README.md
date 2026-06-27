@@ -27,7 +27,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Topic               | Problems Solved |
 | ------------------- | --------------- |
 | Arrays              | 10              |
-| Strings             | 5               |
+| Strings             | 6               |
 | Linked List         | 0               |
 | Stack               | 0               |
 | Queue               | 0               |
@@ -35,7 +35,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Graphs              | 0               |
 | Dynamic Programming | 1               |
 | Greedy              | 1               |
-| Total               | 17              |
+| Total               | 18              |
 ---
 
 ## ✅ Solved Problems
