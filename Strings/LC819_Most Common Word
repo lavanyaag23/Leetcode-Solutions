@@ -1,0 +1,56 @@
+/*
+ * LeetCode Problem #819 - Most Common Word
+ *
+ * Difficulty: Easy
+ * Topic: String, HashMap, Counting
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/most-common-word/
+ *
+ * Approach:
+ * 1. Convert paragraph to lowercase.
+ * 2. Replace punctuation with spaces.
+ * 3. Split into words.
+ * 4. Ignore banned words using a set.
+ * 5. Count frequency using HashMap.
+ * 6. Return the word with maximum frequency.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
+
+import java.util.*;
+
+class Solution {
+    public String mostCommonWord(String paragraph, String[] banned) {
+
+        Set<String> bannedSet = new HashSet<>();
+        for (String word : banned) {
+            bannedSet.add(word);
+        }
+
+        paragraph = paragraph.toLowerCase().replaceAll("[!?',;.]"," ");
+
+        String[] words = paragraph.split("\\s+");
+
+        Map<String, Integer> map = new HashMap<>();
+        int maxCount = 0;
+        String result = "";
+
+        for (String word : words) {
+
+            if (word.length() == 0 || bannedSet.contains(word)) {
+                continue;
+            }
+
+            map.put(word, map.getOrDefault(word, 0) + 1);
+
+            if (map.get(word) > maxCount) {
+                maxCount = map.get(word);
+                result = word;
+            }
+        }
+
+        return result;
+    }
+}
