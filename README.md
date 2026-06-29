@@ -28,14 +28,14 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 |-------|----------------:|
 | Arrays | 10 |
 | Strings | 9 |
-| Linked List | 0 |
+| Linked List | 5 |
 | Stack | 0 |
 | Queue | 0 |
 | Trees | 0 |
 | Graphs | 0 |
 | Dynamic Programming | 1 |
 | Greedy | 1 |
-| **Total** | **21** |
+| **Total** | **26** |
 
 ---
 
@@ -73,6 +73,16 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 242 | Valid Anagram |
 
 ---
+
+### 📌 Linked List
+
+| LeetCode # | Problem |
+|-----------:|---------|
+| 21 | Merge Two Sorted Lists |
+| 141 | Linked List Cycle |
+| 206 | Reverse Linked List |
+| 234 | Palindrome Linked List |
+| 876 | Middle of the Linked List |
 
 ### 📌 Greedy
 
@@ -117,7 +127,13 @@ LeetCode-Solutions
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
 │   ├── LC14_LongestCommonPrefix.java
 │   └── LC242_ValidAnagram.java
-│
+|
+├── LinkedList
+│   ├── LC21_MergeTwoSortedLists.java
+│   ├── LC141_LinkedListCycle.java
+│   ├── LC206_ReverseLinkedList.java
+│   ├── LC234_PalindromeLinkedList.java
+│   └── LC876_MiddleOfTheLinkedList.java
 ├── Greedy
 │   └── LC55_JumpGame.java
 │
