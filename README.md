@@ -140,7 +140,6 @@ LeetCode-Solutions
 ├── DynamicProgramming
 │   └── LC213_HouseRobberII.java
 │
-├── LinkedList
 ├── Stack
 ├── Queue
 ├── Trees
