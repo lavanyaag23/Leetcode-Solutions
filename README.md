@@ -26,16 +26,16 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | Topic | Problems Solved |
 |-------|----------------:|
-| Arrays | 10 |
+| Arrays | 101|
 | Strings | 9 |
-| Linked List | 5 |
+| Linked List | 8 |
 | Stack | 0 |
 | Queue | 0 |
 | Trees | 0 |
 | Graphs | 0 |
 | Dynamic Programming | 1 |
 | Greedy | 1 |
-| **Total** | **26** |
+| **Total** | **30** |
 
 ---
 
@@ -55,6 +55,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 53 | Maximum Subarray |
 | 217 | Contains Duplicate |
 | 283 | Move Zeroes |
+| 88 | Merge Sorted Array |
 
 ---
 
@@ -83,6 +84,11 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 206 | Reverse Linked List |
 | 234 | Palindrome Linked List |
 | 876 | Middle of the Linked List |
+| 19 | Remove Nth Node From End of List |
+| 24 | Swap Nodes in Pairs |
+| 61 | Rotate List |
+
+---
 
 ### 📌 Greedy
 
@@ -100,9 +106,6 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ---
 
-## 📂 Repository Structure
-
-```text
 LeetCode-Solutions
 │
 ├── Arrays
@@ -115,7 +118,8 @@ LeetCode-Solutions
 │   ├── LC121_BestTimeToBuySellStock.java
 │   ├── LC53_MaximumSubarray.java
 │   ├── LC217_ContainsDuplicate.java
-│   └── LC283_MoveZeroes.java
+│   ├── LC283_MoveZeroes.java
+│   └── LC88_MergeSortedArray.java
 │
 ├── Strings
 │   ├── LC125_ValidPalindrome.java
@@ -127,13 +131,17 @@ LeetCode-Solutions
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
 │   ├── LC14_LongestCommonPrefix.java
 │   └── LC242_ValidAnagram.java
-|
+│
 ├── LinkedList
 │   ├── LC21_MergeTwoSortedLists.java
 │   ├── LC141_LinkedListCycle.java
 │   ├── LC206_ReverseLinkedList.java
 │   ├── LC234_PalindromeLinkedList.java
-│   └── LC876_MiddleOfTheLinkedList.java
+│   ├── LC876_MiddleOfTheLinkedList.java
+│   ├── LC19_RemoveNthNodeFromEnd.java
+│   ├── LC24_SwapNodesInPairs.java
+│   └── LC61_RotateList.java
+│
 ├── Greedy
 │   └── LC55_JumpGame.java
 │
@@ -144,7 +152,6 @@ LeetCode-Solutions
 ├── Queue
 ├── Trees
 └── Graphs
-```
 
 ---
 
