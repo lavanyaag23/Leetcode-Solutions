@@ -1,0 +1,65 @@
+/*
+ * LeetCode Problem #61 - Rotate List
+ *
+ * Difficulty: Medium
+ * Topic: Linked List
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/rotate-list/
+ *
+ * Approach:
+ * Find the length of the list and connect the tail to the head
+ * to form a circular list. Break the circle at the correct position
+ * to obtain the rotated list.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+
+class Solution {
+
+    public ListNode rotateRight(ListNode head, int k) {
+
+        if (head == null || head.next == null || k == 0)
+            return head;
+
+        int length = 1;
+        ListNode tail = head;
+
+        while (tail.next != null) {
+            tail = tail.next;
+            length++;
+        }
+
+        k %= length;
+
+        if (k == 0)
+            return head;
+
+        // Make the list circular
+        tail.next = head;
+
+        int stepsToNewTail = length - k;
+        ListNode newTail = tail;
+
+        while (stepsToNewTail-- > 0) {
+            newTail = newTail.next;
+        }
+
+        ListNode newHead = newTail.next;
+        newTail.next = null;
+
+        return newHead;
+    }
+}
