@@ -8,34 +8,35 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ## 🎯 Objectives
 
-- Strengthen Data Structures & Algorithms concepts
-- Improve analytical and problem-solving skills
-- Prepare for coding interviews and placement opportunities
-- Maintain consistency through daily coding practice
-- Learn optimized approaches and common problem-solving patterns
+* Strengthen Data Structures & Algorithms concepts
+* Improve analytical and problem-solving skills
+* Prepare for coding interviews and placement opportunities
+* Maintain consistency through daily coding practice
+* Learn optimized approaches and common problem-solving patterns
 
 ---
 
 ## 💻 Language
 
-- Java ☕
+* Java ☕
 
 ---
 
 ## 📊 Progress Tracker
 
-| Topic | Problems Solved |
-|-------|----------------:|
-| Arrays | 101|
-| Strings | 9 |
-| Linked List | 8 |
-| Stack | 0 |
-| Queue | 0 |
-| Trees | 0 |
-| Graphs | 0 |
-| Dynamic Programming | 1 |
-| Greedy | 1 |
-| **Total** | **30** |
+| Topic               | Problems Solved |
+| ------------------- | --------------: |
+| Arrays              |              11 |
+| Strings             |               9 |
+| Linked List         |              10 |
+| Stack               |               0 |
+| Queue               |               0 |
+| Trees               |               0 |
+| Graphs              |               0 |
+| Dynamic Programming |               2 |
+| Greedy              |               1 |
+| Bit Manipulation    |               1 |
+| **Total**           |          **34** |
 
 ---
 
@@ -43,69 +44,83 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ### 📌 Arrays
 
-| LeetCode # | Problem |
-|-----------:|---------|
-| 268 | Missing Number |
-| 27 | Remove Element |
-| 66 | Plus One |
-| 867 | Transpose Matrix |
-| 238 | Product of Array Except Self |
-| 1 | Two Sum |
-| 121 | Best Time to Buy and Sell Stock |
-| 53 | Maximum Subarray |
-| 217 | Contains Duplicate |
-| 283 | Move Zeroes |
-| 88 | Merge Sorted Array |
+| LeetCode # | Problem                         |
+| ---------: | ------------------------------- |
+|        268 | Missing Number                  |
+|         27 | Remove Element                  |
+|         66 | Plus One                        |
+|        867 | Transpose Matrix                |
+|        238 | Product of Array Except Self    |
+|          1 | Two Sum                         |
+|        121 | Best Time to Buy and Sell Stock |
+|         53 | Maximum Subarray                |
+|        217 | Contains Duplicate              |
+|        283 | Move Zeroes                     |
+|         88 | Merge Sorted Array              |
 
 ---
 
 ### 📌 Strings
 
-| LeetCode # | Problem |
-|-----------:|---------|
-| 125 | Valid Palindrome |
-| 58 | Length of Last Word |
-| 205 | Isomorphic Strings |
-| 28 | Find the Index of the First Occurrence in a String |
-| 806 | Number of Lines To Write String |
-| 819 | Most Common Word |
-| 3 | Longest Substring Without Repeating Characters |
-| 14 | Longest Common Prefix |
-| 242 | Valid Anagram |
+| LeetCode # | Problem                                            |
+| ---------: | -------------------------------------------------- |
+|        125 | Valid Palindrome                                   |
+|         58 | Length of Last Word                                |
+|        205 | Isomorphic Strings                                 |
+|         28 | Find the Index of the First Occurrence in a String |
+|        806 | Number of Lines To Write String                    |
+|        819 | Most Common Word                                   |
+|          3 | Longest Substring Without Repeating Characters     |
+|         14 | Longest Common Prefix                              |
+|        242 | Valid Anagram                                      |
 
 ---
 
 ### 📌 Linked List
 
-| LeetCode # | Problem |
-|-----------:|---------|
-| 21 | Merge Two Sorted Lists |
-| 141 | Linked List Cycle |
-| 206 | Reverse Linked List |
-| 234 | Palindrome Linked List |
-| 876 | Middle of the Linked List |
-| 19 | Remove Nth Node From End of List |
-| 24 | Swap Nodes in Pairs |
-| 61 | Rotate List |
-
----
-
-### 📌 Greedy
-
-| LeetCode # | Problem |
-|-----------:|---------|
-| 55 | Jump Game |
+| LeetCode # | Problem                            |
+| ---------: | ---------------------------------- |
+|         21 | Merge Two Sorted Lists             |
+|         83 | Remove Duplicates from Sorted List |
+|        141 | Linked List Cycle                  |
+|        203 | Remove Linked List Elements        |
+|        206 | Reverse Linked List                |
+|        234 | Palindrome Linked List             |
+|        876 | Middle of the Linked List          |
+|         19 | Remove Nth Node From End of List   |
+|         24 | Swap Nodes in Pairs                |
+|         61 | Rotate List                        |
 
 ---
 
 ### 📌 Dynamic Programming
 
-| LeetCode # | Problem |
-|-----------:|---------|
-| 213 | House Robber II |
+| LeetCode # | Problem          |
+| ---------: | ---------------- |
+|        213 | House Robber II  |
+|        509 | Fibonacci Number |
 
 ---
 
+### 📌 Greedy
+
+| LeetCode # | Problem   |
+| ---------: | --------- |
+|         55 | Jump Game |
+
+---
+
+### 📌 Bit Manipulation
+
+| LeetCode # | Problem      |
+| ---------: | ------------ |
+|        231 | Power of Two |
+
+---
+
+## 📂 Repository Structure
+
+```text
 LeetCode-Solutions
 │
 ├── Arrays
@@ -133,48 +148,55 @@ LeetCode-Solutions
 │   └── LC242_ValidAnagram.java
 │
 ├── LinkedList
+│   ├── LC19_RemoveNthNodeFromEnd.java
 │   ├── LC21_MergeTwoSortedLists.java
+│   ├── LC24_SwapNodesInPairs.java
+│   ├── LC61_RotateList.java
+│   ├── LC83_RemoveDuplicatesFromSortedList.java
 │   ├── LC141_LinkedListCycle.java
+│   ├── LC203_RemoveLinkedListElements.java
 │   ├── LC206_ReverseLinkedList.java
 │   ├── LC234_PalindromeLinkedList.java
-│   ├── LC876_MiddleOfTheLinkedList.java
-│   ├── LC19_RemoveNthNodeFromEnd.java
-│   ├── LC24_SwapNodesInPairs.java
-│   └── LC61_RotateList.java
+│   └── LC876_MiddleOfTheLinkedList.java
+│
+├── DynamicProgramming
+│   ├── LC213_HouseRobberII.java
+│   └── LC509_FibonacciNumber.java
+│
+├── BitManipulation
+│   └── LC231_PowerOfTwo.java
 │
 ├── Greedy
 │   └── LC55_JumpGame.java
-│
-├── DynamicProgramming
-│   └── LC213_HouseRobberII.java
 │
 ├── Stack
 ├── Queue
 ├── Trees
 └── Graphs
+```
 
 ---
 
 ## 🚀 Current Targets
 
-- Solve **200+ LeetCode Problems**
-- Build Strong DSA Foundations
-- Master Common Interview Patterns
-- Maintain a Daily Coding Habit
-- Improve Coding Speed and Optimization Skills
+* Solve **200+ LeetCode Problems**
+* Build Strong DSA Foundations
+* Master Common Interview Patterns
+* Maintain a Daily Coding Habit
+* Improve Coding Speed and Optimization Skills
 
 ---
 
 ## 📚 Currently Learning
 
-- Data Structures & Algorithms in Java
-- Problem Solving Patterns
-- Dynamic Programming
-- Greedy Algorithms
-- Sliding Window
-- Hashing
-- LeetCode Daily Challenges
-- Interview Preparation
+* Data Structures & Algorithms in Java
+* Problem Solving Patterns
+* Dynamic Programming
+* Bit Manipulation
+* Sliding Window
+* Hashing
+* LeetCode Daily Challenges
+* Interview Preparation
 
 ---
 
