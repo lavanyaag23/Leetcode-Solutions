@@ -1,0 +1,37 @@
+/*
+ * LeetCode Problem #509 - Fibonacci Number
+ *
+ * Difficulty: Easy
+ * Topic: Dynamic Programming, Math
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/fibonacci-number/
+ *
+ * Approach:
+ * Compute Fibonacci numbers iteratively using
+ * two variables to store the previous values.
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+
+class Solution {
+    public int fib(int n) {
+
+        if (n <= 1) {
+            return n;
+        }
+
+        int prev = 0;
+        int curr = 1;
+
+        for (int i = 2; i <= n; i++) {
+
+            int next = prev + curr;
+            prev = curr;
+            curr = next;
+        }
+
+        return curr;
+    }
+}
