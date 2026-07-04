@@ -1,0 +1,23 @@
+/*
+ * LeetCode Problem #231 - Power of Two
+ *
+ * Difficulty: Easy
+ * Topic: Bit Manipulation, Math
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/power-of-two/
+ *
+ * Approach:
+ * A power of two has exactly one set bit.
+ * Check if n is positive and n & (n - 1) equals 0.
+ *
+ * Time Complexity: O(1)
+ * Space Complexity: O(1)
+ */
+
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+
+        return n > 0 && (n & (n - 1)) == 0;
+    }
+}
