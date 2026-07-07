@@ -24,19 +24,19 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ## 📊 Progress Tracker
 
-| Topic               | Problems Solved |
-| ------------------- | --------------: |
-| Arrays              |              11 |
-| Strings             |               9 |
-| Linked List         |              10 |
-| Stack               |               0 |
-| Queue               |               0 |
-| Trees               |               0 |
-| Graphs              |               0 |
-| Dynamic Programming |               2 |
-| Greedy              |               1 |
-| Bit Manipulation    |               1 |
-| **Total**           |          **34** |
+| Topic | Problems Solved |
+|-------|----------------:|
+| Arrays | 12 |
+| Strings | 10 |
+| Linked List | 10 |
+| Stack | 0 |
+| Queue | 0 |
+| Trees | 0 |
+| Graphs | 0 |
+| Dynamic Programming | 2 |
+| Greedy | 2 |
+| Bit Manipulation | 1 |
+| **Total** | **37** |
 
 ---
 
@@ -44,35 +44,36 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ### 📌 Arrays
 
-| LeetCode # | Problem                         |
-| ---------: | ------------------------------- |
-|        268 | Missing Number                  |
-|         27 | Remove Element                  |
-|         66 | Plus One                        |
-|        867 | Transpose Matrix                |
-|        238 | Product of Array Except Self    |
-|          1 | Two Sum                         |
-|        121 | Best Time to Buy and Sell Stock |
-|         53 | Maximum Subarray                |
-|        217 | Contains Duplicate              |
-|        283 | Move Zeroes                     |
-|         88 | Merge Sorted Array              |
+| LeetCode # | Problem |
+|-----------:|---------|
+| 268 | Missing Number |
+| 27 | Remove Element |
+| 66 | Plus One |
+| 867 | Transpose Matrix |
+| 238 | Product of Array Except Self |
+| 1 | Two Sum |
+| 121 | Best Time to Buy and Sell Stock |
+| 53 | Maximum Subarray |
+| 217 | Contains Duplicate |
+| 283 | Move Zeroes |
+| 88 | Merge Sorted Array |
+| 350 | Intersection of Two Arrays II |
 
 ---
-
 ### 📌 Strings
 
-| LeetCode # | Problem                                            |
-| ---------: | -------------------------------------------------- |
-|        125 | Valid Palindrome                                   |
-|         58 | Length of Last Word                                |
-|        205 | Isomorphic Strings                                 |
-|         28 | Find the Index of the First Occurrence in a String |
-|        806 | Number of Lines To Write String                    |
-|        819 | Most Common Word                                   |
-|          3 | Longest Substring Without Repeating Characters     |
-|         14 | Longest Common Prefix                              |
-|        242 | Valid Anagram                                      |
+| LeetCode # | Problem |
+|-----------:|---------|
+| 125 | Valid Palindrome |
+| 58 | Length of Last Word |
+| 205 | Isomorphic Strings |
+| 28 | Find the Index of the First Occurrence in a String |
+| 806 | Number of Lines To Write String |
+| 819 | Most Common Word |
+| 3 | Longest Substring Without Repeating Characters |
+| 14 | Longest Common Prefix |
+| 242 | Valid Anagram |
+| 344 | Reverse String |
 
 ---
 
@@ -101,12 +102,12 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 |        509 | Fibonacci Number |
 
 ---
-
 ### 📌 Greedy
 
-| LeetCode # | Problem   |
-| ---------: | --------- |
-|         55 | Jump Game |
+| LeetCode # | Problem |
+|-----------:|---------|
+| 55 | Jump Game |
+| 455 | Assign Cookies |
 
 ---
 
@@ -135,7 +136,7 @@ LeetCode-Solutions
 │   ├── LC217_ContainsDuplicate.java
 │   ├── LC283_MoveZeroes.java
 │   └── LC88_MergeSortedArray.java
-│
+│   └── LC350_IntersectionOfTwoArraysII.java
 ├── Strings
 │   ├── LC125_ValidPalindrome.java
 │   ├── LC58_LengthOfLastWord.java
@@ -146,7 +147,7 @@ LeetCode-Solutions
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
 │   ├── LC14_LongestCommonPrefix.java
 │   └── LC242_ValidAnagram.java
-│
+│   └── LC344_ReverseString.java
 ├── LinkedList
 │   ├── LC19_RemoveNthNodeFromEnd.java
 │   ├── LC21_MergeTwoSortedLists.java
@@ -168,6 +169,7 @@ LeetCode-Solutions
 │
 ├── Greedy
 │   └── LC55_JumpGame.java
+│   └── LC455_AssignCookies.java
 │
 ├── Stack
 ├── Queue
