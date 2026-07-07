@@ -21,6 +21,8 @@ Arrays are one of the most fundamental data structures and form the basis for un
 - Hashing Techniques
 - In-place Array Manipulation
 - Merging Sorted Arrays
+- Hash Maps
+- Set Operations
 
 ---
 
@@ -39,6 +41,7 @@ Arrays are one of the most fundamental data structures and form the basis for un
 | 217 | Contains Duplicate | 🟢 Easy |
 | 283 | Move Zeroes | 🟢 Easy |
 | 88 | Merge Sorted Array | 🟢 Easy |
+| 350 | Intersection of Two Arrays II | 🟢 Easy |
 
 ---
 
@@ -50,6 +53,7 @@ Arrays are one of the most fundamental data structures and form the basis for un
 - Build a strong DSA foundation
 - Understand Prefix and Suffix Array concepts
 - Master common interview patterns using arrays
+- Apply HashMap and Two Pointer techniques effectively
 
 ---
 
@@ -61,9 +65,9 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **11**
+- **Problems Solved:** **12**
 
-- 🟢 Easy: **8**
+- 🟢 Easy: **9**
 - 🟡 Medium: **3**
 - 🔴 Hard: **0**
 
@@ -71,7 +75,7 @@ Java ☕
 
 ## 🚀 Next Goal
 
-Continue solving array problems to strengthen problem-solving skills and master common coding interview patterns.
+Continue solving array problems to strengthen problem-solving skills, recognize common patterns, and master coding interview questions.
 
 ---
 
