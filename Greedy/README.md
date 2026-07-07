@@ -1,88 +1,76 @@
-# Greedy Algorithms
+# 🎯 Greedy Algorithms
 
 This folder contains solutions to LeetCode problems related to **Greedy Algorithms** implemented in Java.
 
-Greedy algorithms build up a solution step by step, always choosing the option that looks best at the moment. They are efficient and often used for optimization problems.
+Greedy algorithms build a solution step by step by making the locally optimal choice at each stage. They are widely used for optimization problems and often provide efficient solutions with linear or near-linear complexity.
 
 ---
 
 ## 📚 Topics Covered
 
-* Array-based Greedy Problems
-* Interval Problems
-* Jump Game Variations
-* Maximum/Minimum Optimization Problems
-* Scheduling Problems
-* Partitioning Problems
+- Array-based Greedy Problems
+- Interval Problems
+- Jump Game Variations
+- Maximum/Minimum Optimization Problems
+- Scheduling Problems
+- Partitioning Problems
+- Sorting + Greedy
+- Two Pointers
 
 ---
 
 ## ✅ Solved Problems
 
-| #   | Problem        | Difficulty |
-|-----|----------------|------------|
-| 55  | Jump Game      | Medium     |
+| # | Problem | Difficulty |
+|---|---------|------------|
+| 55 | Jump Game | 🟡 Medium |
+| 455 | Assign Cookies | 🟢 Easy |
 
 ---
 
 ## 🎯 Learning Objectives
 
-* Understand greedy decision-making strategy
-* Learn how to identify optimal local choices
-* Improve array traversal techniques
-* Solve reachability and optimization problems
-* Distinguish between greedy and dynamic programming approaches
+- Understand greedy decision-making strategies
+- Learn how to identify locally optimal choices
+- Improve array traversal techniques
+- Solve optimization and resource allocation problems
+- Distinguish between Greedy and Dynamic Programming approaches
+- Apply sorting with greedy techniques
 
 ---
 
 ## 💡 Key Concepts
 
-* **Farthest Reach Concept**
-* **Local vs Global Optimization**
-* **Single Pass Array Traversal**
-* **Early Termination Condition**
+- Greedy Choice Property
+- Local vs Global Optimization
+- Farthest Reach Concept
+- Sorting Before Processing
+- Two Pointers
+- Single Pass Array Traversal
+- Early Termination Conditions
 
 ---
 
-## 🚀 Problem: LeetCode #55 - Jump Game
+## 💻 Language
 
-### 🧩 Problem Statement
-
-You are given an integer array `nums`.
-
-Each element represents the maximum jump length from that position.
-
-Return `true` if you can reach the last index starting from index `0`, otherwise return `false`.
+Java ☕
 
 ---
 
-### 🧠 Approach (Greedy)
+## 📈 Progress
 
-* Maintain a variable `maxReach` to track the farthest index you can reach.
-* Iterate through the array.
-* If the current index is greater than `maxReach`, return `false`.
-* Update `maxReach = max(maxReach, i + nums[i])`.
-* If `maxReach >= last index`, return `true`.
+- **Problems Solved:** **2**
 
----
-
-### ⚙️ Algorithm Steps
-
-1. Initialize `maxReach = 0`
-2. Traverse the array from left to right
-3. If `i > maxReach`, return `false`
-4. Update `maxReach`
-5. If `maxReach >= n-1`, return `true`
+- 🟢 Easy: **1**
+- 🟡 Medium: **1**
+- 🔴 Hard: **0**
 
 ---
 
-### 📊 Complexity Analysis
+## 🚀 Next Step
 
-* **Time Complexity:** O(n)
-* **Space Complexity:** O(1)
+Continue solving Greedy problems to strengthen optimization skills and recognize patterns commonly asked in coding interviews.
 
 ---
 
-## 📌 Example
-
-### Input
+⭐ **Greedy algorithms make the best choice at every step—mastering them leads to elegant and efficient solutions.**
