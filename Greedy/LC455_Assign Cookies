@@ -1,0 +1,37 @@
+/*
+ * LeetCode Problem #455 - Assign Cookies
+ *
+ * Difficulty: Easy
+ * Topic: Greedy, Sorting
+ *
+ * Problem Link:
+ * https://leetcode.com/problems/assign-cookies/
+ *
+ * Approach:
+ * Sort both the greed factor array and cookie sizes.
+ * Use two pointers to assign the smallest possible cookie
+ * that satisfies each child greedily.
+ *
+ * Time Complexity: O(n log n + m log m)
+ * Space Complexity: O(1)
+ */
+
+import java.util.Arrays;
+
+class Solution {
+    public int findContentChildren(int[] g, int[] s) {
+        Arrays.sort(g);
+        Arrays.sort(s);
+
+        int i = 0, j = 0;
+
+        while (i < g.length && j < s.length) {
+            if (s[j] >= g[i]) {
+                i++;
+            }
+            j++;
+        }
+
+        return i;
+    }
+}
