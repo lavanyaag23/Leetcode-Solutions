@@ -26,7 +26,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | Topic | Problems Solved |
 |-------|----------------:|
-| Arrays | 12 |
+| Arrays | 13 |
 | Strings | 10 |
 | Linked List | 10 |
 | Stack | 0 |
@@ -36,13 +36,15 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Dynamic Programming | 2 |
 | Greedy | 2 |
 | Bit Manipulation | 1 |
-| **Total** | **37** |
+| Math | 1 |
+| Contests | 1 |
+| **Total** | **40** |
 
 ---
 
-## ✅ Solved Problems
+# ✅ Solved Problems
 
-### 📌 Arrays
+## 📌 Arrays
 
 | LeetCode # | Problem |
 |-----------:|---------|
@@ -58,9 +60,11 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 283 | Move Zeroes |
 | 88 | Merge Sorted Array |
 | 350 | Intersection of Two Arrays II |
+| 766 | Toeplitz Matrix |
 
 ---
-### 📌 Strings
+
+## 📌 Strings
 
 | LeetCode # | Problem |
 |-----------:|---------|
@@ -77,32 +81,33 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ---
 
-### 📌 Linked List
+## 📌 Linked List
 
-| LeetCode # | Problem                            |
-| ---------: | ---------------------------------- |
-|         21 | Merge Two Sorted Lists             |
-|         83 | Remove Duplicates from Sorted List |
-|        141 | Linked List Cycle                  |
-|        203 | Remove Linked List Elements        |
-|        206 | Reverse Linked List                |
-|        234 | Palindrome Linked List             |
-|        876 | Middle of the Linked List          |
-|         19 | Remove Nth Node From End of List   |
-|         24 | Swap Nodes in Pairs                |
-|         61 | Rotate List                        |
+| LeetCode # | Problem |
+|-----------:|---------|
+| 21 | Merge Two Sorted Lists |
+| 83 | Remove Duplicates from Sorted List |
+| 141 | Linked List Cycle |
+| 203 | Remove Linked List Elements |
+| 206 | Reverse Linked List |
+| 234 | Palindrome Linked List |
+| 876 | Middle of the Linked List |
+| 19 | Remove Nth Node From End of List |
+| 24 | Swap Nodes in Pairs |
+| 61 | Rotate List |
+
+---
+
+## 📌 Dynamic Programming
+
+| LeetCode # | Problem |
+|-----------:|---------|
+| 213 | House Robber II |
+| 509 | Fibonacci Number |
 
 ---
 
-### 📌 Dynamic Programming
-
-| LeetCode # | Problem          |
-| ---------: | ---------------- |
-|        213 | House Robber II  |
-|        509 | Fibonacci Number |
-
----
-### 📌 Greedy
+## 📌 Greedy
 
 | LeetCode # | Problem |
 |-----------:|---------|
@@ -111,15 +116,31 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ---
 
-### 📌 Bit Manipulation
+## 📌 Bit Manipulation
 
-| LeetCode # | Problem      |
-| ---------: | ------------ |
-|        231 | Power of Two |
+| LeetCode # | Problem |
+|-----------:|---------|
+| 231 | Power of Two |
 
 ---
 
-## 📂 Repository Structure
+## 📌 Math
+
+| LeetCode # | Problem |
+|-----------:|---------|
+| 202 | Happy Number |
+
+---
+
+## 📌 Contests
+
+| Problem |
+|---------|
+| Concatenate Non-Zero Digits and Multiply by Sum II |
+
+---
+
+# 📂 Repository Structure
 
 ```text
 LeetCode-Solutions
@@ -135,8 +156,10 @@ LeetCode-Solutions
 │   ├── LC53_MaximumSubarray.java
 │   ├── LC217_ContainsDuplicate.java
 │   ├── LC283_MoveZeroes.java
-│   └── LC88_MergeSortedArray.java
-│   └── LC350_IntersectionOfTwoArraysII.java
+│   ├── LC88_MergeSortedArray.java
+│   ├── LC350_IntersectionOfTwoArraysII.java
+│   └── LC766_ToeplitzMatrix.java
+│
 ├── Strings
 │   ├── LC125_ValidPalindrome.java
 │   ├── LC58_LengthOfLastWord.java
@@ -146,8 +169,9 @@ LeetCode-Solutions
 │   ├── LC819_MostCommonWord.java
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
 │   ├── LC14_LongestCommonPrefix.java
-│   └── LC242_ValidAnagram.java
+│   ├── LC242_ValidAnagram.java
 │   └── LC344_ReverseString.java
+│
 ├── LinkedList
 │   ├── LC19_RemoveNthNodeFromEnd.java
 │   ├── LC21_MergeTwoSortedLists.java
@@ -164,12 +188,18 @@ LeetCode-Solutions
 │   ├── LC213_HouseRobberII.java
 │   └── LC509_FibonacciNumber.java
 │
+├── Greedy
+│   ├── LC55_JumpGame.java
+│   └── LC455_AssignCookies.java
+│
 ├── BitManipulation
 │   └── LC231_PowerOfTwo.java
 │
-├── Greedy
-│   └── LC55_JumpGame.java
-│   └── LC455_AssignCookies.java
+├── Math
+│   └── LC202_HappyNumber.java
+│
+├── Contests
+│   └── ConcatenateNonZeroDigitsAndMultiplyBySumII.java
 │
 ├── Stack
 ├── Queue
@@ -179,7 +209,7 @@ LeetCode-Solutions
 
 ---
 
-## 🚀 Current Targets
+# 🚀 Current Targets
 
 * Solve **200+ LeetCode Problems**
 * Build Strong DSA Foundations
@@ -189,7 +219,7 @@ LeetCode-Solutions
 
 ---
 
-## 📚 Currently Learning
+# 📚 Currently Learning
 
 * Data Structures & Algorithms in Java
 * Problem Solving Patterns
@@ -197,12 +227,13 @@ LeetCode-Solutions
 * Bit Manipulation
 * Sliding Window
 * Hashing
+* Greedy Algorithms
 * LeetCode Daily Challenges
 * Interview Preparation
 
 ---
 
-## 👩‍💻 About Me
+# 👩‍💻 About Me
 
 **Lavanya Agrawal**
 
