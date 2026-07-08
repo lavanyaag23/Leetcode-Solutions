@@ -42,6 +42,7 @@ Arrays are one of the most fundamental data structures and form the basis for un
 | 283 | Move Zeroes | 🟢 Easy |
 | 88 | Merge Sorted Array | 🟢 Easy |
 | 350 | Intersection of Two Arrays II | 🟢 Easy |
+| 766 | Toeplitz Matrix | 🟢 Easy |
 
 ---
 
@@ -54,6 +55,7 @@ Arrays are one of the most fundamental data structures and form the basis for un
 - Understand Prefix and Suffix Array concepts
 - Master common interview patterns using arrays
 - Apply HashMap and Two Pointer techniques effectively
+- Improve matrix traversal and manipulation skills
 
 ---
 
@@ -65,9 +67,9 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **12**
+- **Problems Solved:** **13**
 
-- 🟢 Easy: **9**
+- 🟢 Easy: **10**
 - 🟡 Medium: **3**
 - 🔴 Hard: **0**
 
