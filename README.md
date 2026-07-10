@@ -26,19 +26,19 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | Topic | Problems Solved |
 |-------|----------------:|
-| Arrays | 13 |
+| Arrays | 17 |
 | Strings | 10 |
 | Linked List | 10 |
 | Stack | 0 |
 | Queue | 0 |
 | Trees | 0 |
-| Graphs | 0 |
+| Graphs | 2 |
 | Dynamic Programming | 2 |
 | Greedy | 2 |
 | Bit Manipulation | 1 |
 | Math | 1 |
 | Contests | 1 |
-| **Total** | **40** |
+| **Total** | **46** |
 
 ---
 
@@ -61,6 +61,10 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 88 | Merge Sorted Array |
 | 350 | Intersection of Two Arrays II |
 | 766 | Toeplitz Matrix |
+| 48 | Rotate Image |
+| 54 | Spiral Matrix |
+| 75 | Sort Colors |
+| 611 | Valid Triangle Number |
 
 ---
 
@@ -97,7 +101,14 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 61 | Rotate List |
 
 ---
+### 📌 Graphs
 
+| LeetCode # | Problem |
+|-----------:|---------|
+| 3514 | Path Existence Queries in a Graph I |
+| 3515 | Path Existence Queries in a Graph II |
+
+---
 ## 📌 Dynamic Programming
 
 | LeetCode # | Problem |
@@ -159,7 +170,11 @@ LeetCode-Solutions
 │   ├── LC88_MergeSortedArray.java
 │   ├── LC350_IntersectionOfTwoArraysII.java
 │   └── LC766_ToeplitzMatrix.java
-│
+│   ├── LC48_RotateImage.java
+|   ├── LC54_SpiralMatrix.java
+|   ├── LC75_SortColors.java
+|   ├── LC611_ValidTriangleNumber.java
+|
 ├── Strings
 │   ├── LC125_ValidPalindrome.java
 │   ├── LC58_LengthOfLastWord.java
@@ -184,6 +199,11 @@ LeetCode-Solutions
 │   ├── LC234_PalindromeLinkedList.java
 │   └── LC876_MiddleOfTheLinkedList.java
 │
+├── Graphs
+│   ├── README.md
+│   ├── LC3514_PathExistenceQueriesInGraphI.java
+│   └── LC3515_PathExistenceQueriesInGraphII.java
+|
 ├── DynamicProgramming
 │   ├── LC213_HouseRobberII.java
 │   └── LC509_FibonacciNumber.java
@@ -203,8 +223,7 @@ LeetCode-Solutions
 │
 ├── Stack
 ├── Queue
-├── Trees
-└── Graphs
+└── Trees
 ```
 
 ---
