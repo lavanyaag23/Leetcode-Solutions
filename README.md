@@ -237,14 +237,15 @@ LeetCode-Solutions
 * Improve Coding Speed and Optimization Skills
 
 ---
-
 # 📚 Currently Learning
 
 * Data Structures & Algorithms in Java
 * Problem Solving Patterns
 * Dynamic Programming
+* Graph Algorithms
 * Bit Manipulation
 * Sliding Window
+* Two Pointers
 * Hashing
 * Greedy Algorithms
 * LeetCode Daily Challenges
