@@ -10,11 +10,14 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 
 - Number Theory
 - Digit Manipulation
+- Mathematical Simulation
+- Binary Search on Answer
+- Integer Square Root
+- Sequential Number Generation
 - Modular Arithmetic
 - Prime Numbers
 - GCD & LCM
 - Powers & Exponents
-- Mathematical Simulation
 
 ---
 
@@ -22,7 +25,9 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 69 | Sqrt(x) | 🟢 Easy |
 | 202 | Happy Number | 🟢 Easy |
+| 1291 | Sequential Digits | 🟡 Medium |
 
 ---
 
@@ -31,6 +36,7 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 - Improve mathematical reasoning
 - Master number manipulation techniques
 - Learn efficient mathematical algorithms
+- Understand binary search in mathematical problems
 - Build strong problem-solving skills
 
 ---
@@ -43,18 +49,18 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **1**
+- **Problems Solved:** **3**
 
-- 🟢 Easy: **1**
-- 🟡 Medium: **0**
+- 🟢 Easy: **2**
+- 🟡 Medium: **1**
 - 🔴 Hard: **0**
 
 ---
 
-## 🚀 Next Step
+## 🚀 Next Goal
 
-Continue solving Math problems to strengthen numerical reasoning and optimization skills.
+Continue solving Math problems to strengthen numerical reasoning, mathematical optimization, and algorithmic thinking.
 
 ---
 
-⭐ **Mathematics is the foundation of efficient algorithms.**
+⭐ **Mathematics is the foundation of efficient algorithms—strong fundamentals lead to elegant solutions.**
