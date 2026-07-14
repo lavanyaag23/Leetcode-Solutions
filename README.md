@@ -24,21 +24,22 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ## 📊 Progress Tracker
 
-| Topic | Problems Solved |
-|-------|----------------:|
-| Arrays | 17 |
-| Strings | 10 |
-| Linked List | 10 |
-| Stack | 0 |
-| Queue | 0 |
-| Trees | 0 |
-| Graphs | 2 |
-| Dynamic Programming | 2 |
-| Greedy | 2 |
-| Bit Manipulation | 1 |
-| Math | 1 |
-| Contests | 1 |
-| **Total** | **46** |
+| Topic               | Problems Solved |
+| ------------------- | --------------: |
+| Arrays              |          **18** |
+| Strings             |          **12** |
+| Linked List         |          **10** |
+| Stack               |           **2** |
+| Queue               |           **0** |
+| Trees               |           **0** |
+| Graphs              |           **3** |
+| Dynamic Programming |           **3** |
+| Greedy              |           **2** |
+| Bit Manipulation    |           **1** |
+| Math                |           **3** |
+| Binary Search       |           **2** |
+| Contests            |           **1** |
+| **Total**           |          **57** |
 
 ---
 
@@ -65,6 +66,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 54 | Spiral Matrix |
 | 75 | Sort Colors |
 | 611 | Valid Triangle Number |
+| 73 | Set Matrix Zeroes |
 
 ---
 
@@ -82,6 +84,8 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 14 | Longest Common Prefix |
 | 242 | Valid Anagram |
 | 344 | Reverse String |
+| 443 | String Compression |
+| 1047 | Remove All Adjacent Duplicates In String |
 
 ---
 
@@ -101,12 +105,21 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 61 | Rotate List |
 
 ---
+## 📌 Stack
+
+| LeetCode # | Problem |
+|-----------:|---------|
+| 20 | Valid Parentheses |
+| 1047 | Remove All Adjacent Duplicates In String |
+
+---
 ### 📌 Graphs
 
 | LeetCode # | Problem |
 |-----------:|---------|
 | 3514 | Path Existence Queries in a Graph I |
 | 3515 | Path Existence Queries in a Graph II |
+| 2685 | Count the Number of Complete Components |
 
 ---
 ## 📌 Dynamic Programming
@@ -115,6 +128,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 |-----------:|---------|
 | 213 | House Robber II |
 | 509 | Fibonacci Number |
+| 3336 | Find the Number of Subsequences With Equal GCD |
 
 ---
 
@@ -140,9 +154,19 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | LeetCode # | Problem |
 |-----------:|---------|
 | 202 | Happy Number |
+| 69 | Sqrt(x) |
+| 1291 | Sequential Digits |
 
 ---
 
+## 📌 Binary Search
+
+| LeetCode # | Problem |
+|-----------:|---------|
+| 35 | Search Insert Position |
+| 704 | Binary Search |
+
+---
 ## 📌 Contests
 
 | Problem |
@@ -155,37 +179,40 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ```text
 LeetCode-Solutions
-│
+|
 ├── Arrays
-│   ├── LC268_MissingNumber.java
-│   ├── LC27_RemoveElement.java
-│   ├── LC66_PlusOne.java
-│   ├── LC867_TransposeMatrix.java
-│   ├── LC238_ProductOfArrayExceptSelf.java
 │   ├── LC1_TwoSum.java
-│   ├── LC121_BestTimeToBuySellStock.java
-│   ├── LC53_MaximumSubarray.java
-│   ├── LC217_ContainsDuplicate.java
-│   ├── LC283_MoveZeroes.java
-│   ├── LC88_MergeSortedArray.java
-│   ├── LC350_IntersectionOfTwoArraysII.java
-│   └── LC766_ToeplitzMatrix.java
+│   ├── LC27_RemoveElement.java
 │   ├── LC48_RotateImage.java
-|   ├── LC54_SpiralMatrix.java
-|   ├── LC75_SortColors.java
-|   ├── LC611_ValidTriangleNumber.java
+│   ├── LC53_MaximumSubarray.java
+│   ├── LC54_SpiralMatrix.java
+│   ├── LC66_PlusOne.java
+│   ├── LC73_SetMatrixZeroes.java
+│   ├── LC75_SortColors.java
+│   ├── LC88_MergeSortedArray.java
+│   ├── LC121_BestTimeToBuySellStock.java
+│   ├── LC217_ContainsDuplicate.java
+│   ├── LC238_ProductOfArrayExceptSelf.java
+│   ├── LC268_MissingNumber.java
+│   ├── LC283_MoveZeroes.java
+│   ├── LC350_IntersectionOfTwoArraysII.java
+│   ├── LC611_ValidTriangleNumber.java
+│   ├── LC766_ToeplitzMatrix.java
+│   └── LC867_TransposeMatrix.java
 |
 ├── Strings
-│   ├── LC125_ValidPalindrome.java
-│   ├── LC58_LengthOfLastWord.java
-│   ├── LC205_IsomorphicStrings.java
-│   ├── LC28_FirstOccurrenceString.java
-│   ├── LC806_NumberOfLinesToWriteString.java
-│   ├── LC819_MostCommonWord.java
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
 │   ├── LC14_LongestCommonPrefix.java
+│   ├── LC28_FirstOccurrenceString.java
+│   ├── LC58_LengthOfLastWord.java
+│   ├── LC125_ValidPalindrome.java
+│   ├── LC205_IsomorphicStrings.java
 │   ├── LC242_ValidAnagram.java
-│   └── LC344_ReverseString.java
+│   ├── LC344_ReverseString.java
+│   ├── LC443_StringCompression.java
+│   ├── LC806_NumberOfLinesToWriteString.java
+│   ├── LC819_MostCommonWord.java
+│   └── LC1047_RemoveAllAdjacentDuplicatesInString.java
 │
 ├── LinkedList
 │   ├── LC19_RemoveNthNodeFromEnd.java
@@ -200,13 +227,14 @@ LeetCode-Solutions
 │   └── LC876_MiddleOfTheLinkedList.java
 │
 ├── Graphs
-│   ├── README.md
+│   ├── LC2685_CountTheNumberOfCompleteComponents.java
 │   ├── LC3514_PathExistenceQueriesInGraphI.java
 │   └── LC3515_PathExistenceQueriesInGraphII.java
 |
 ├── DynamicProgramming
 │   ├── LC213_HouseRobberII.java
-│   └── LC509_FibonacciNumber.java
+│   ├── LC509_FibonacciNumber.java
+│   └── LC3336_FindTheNumberOfSubsequencesWithEqualGCD.java
 │
 ├── Greedy
 │   ├── LC55_JumpGame.java
@@ -216,12 +244,20 @@ LeetCode-Solutions
 │   └── LC231_PowerOfTwo.java
 │
 ├── Math
-│   └── LC202_HappyNumber.java
+│   ├── LC69_SqrtX.java
+│   ├── LC202_HappyNumber.java
+│   └── LC1291_SequentialDigits.java
 │
 ├── Contests
 │   └── ConcatenateNonZeroDigitsAndMultiplyBySumII.java
 │
+├── BinarySearch
+│   ├── LC35_SearchInsertPosition.java
+│   └── LC704_BinarySearch.java
+|
 ├── Stack
+│   ├── LC20_ValidParentheses.java
+│   └── LC1047_RemoveAllAdjacentDuplicatesInString.java
 ├── Queue
 └── Trees
 ```
