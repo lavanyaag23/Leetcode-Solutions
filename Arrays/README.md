@@ -11,10 +11,13 @@ Arrays are one of the most fundamental data structures and form the basis for un
 - Array Traversal
 - Searching
 - Sorting
+- Binary Search
 - Prefix Sum
 - Two Pointers
 - Sliding Window
 - Matrix Operations
+- Matrix Traversal
+- Matrix Rotation
 - Frequency Counting
 - Prefix & Suffix Products
 - Kadane's Algorithm
@@ -23,6 +26,8 @@ Arrays are one of the most fundamental data structures and form the basis for un
 - Merging Sorted Arrays
 - Hash Maps
 - Set Operations
+- Dutch National Flag Algorithm
+- Geometry & Triangle Validation
 
 ---
 
@@ -30,19 +35,24 @@ Arrays are one of the most fundamental data structures and form the basis for un
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 268 | Missing Number | 🟢 Easy |
-| 27 | Remove Element | 🟢 Easy |
-| 66 | Plus One | 🟢 Easy |
-| 867 | Transpose Matrix | 🟢 Easy |
-| 238 | Product of Array Except Self | 🟡 Medium |
 | 1 | Two Sum | 🟢 Easy |
-| 121 | Best Time to Buy and Sell Stock | 🟢 Easy |
+| 27 | Remove Element | 🟢 Easy |
 | 53 | Maximum Subarray | 🟡 Medium |
-| 217 | Contains Duplicate | 🟢 Easy |
-| 283 | Move Zeroes | 🟢 Easy |
+| 66 | Plus One | 🟢 Easy |
+| 73 | Set Matrix Zeroes | 🟡 Medium |
+| 75 | Sort Colors | 🟡 Medium |
 | 88 | Merge Sorted Array | 🟢 Easy |
+| 121 | Best Time to Buy and Sell Stock | 🟢 Easy |
+| 217 | Contains Duplicate | 🟢 Easy |
+| 238 | Product of Array Except Self | 🟡 Medium |
+| 268 | Missing Number | 🟢 Easy |
+| 283 | Move Zeroes | 🟢 Easy |
 | 350 | Intersection of Two Arrays II | 🟢 Easy |
+| 611 | Valid Triangle Number | 🟡 Medium |
 | 766 | Toeplitz Matrix | 🟢 Easy |
+| 867 | Transpose Matrix | 🟢 Easy |
+| 48 | Rotate Image | 🟡 Medium |
+| 54 | Spiral Matrix | 🟡 Medium |
 
 ---
 
@@ -56,6 +66,7 @@ Arrays are one of the most fundamental data structures and form the basis for un
 - Master common interview patterns using arrays
 - Apply HashMap and Two Pointer techniques effectively
 - Improve matrix traversal and manipulation skills
+- Solve in-place array transformation problems
 
 ---
 
@@ -67,10 +78,10 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **13**
+- **Problems Solved:** **18**
 
-- 🟢 Easy: **10**
-- 🟡 Medium: **3**
+- 🟢 Easy: **11**
+- 🟡 Medium: **7**
 - 🔴 Hard: **0**
 
 ---
