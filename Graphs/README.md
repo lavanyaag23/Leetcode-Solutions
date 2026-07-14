@@ -9,7 +9,10 @@ Graph problems are essential for coding interviews and competitive programming. 
 ## 📚 Topics Covered
 
 - Graph Traversal
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
 - Connected Components
+- Complete Graph Detection
 - Union Find (Disjoint Set Union)
 - Graph Connectivity
 - Path Existence Queries
@@ -22,6 +25,7 @@ Graph problems are essential for coding interviews and competitive programming. 
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 2685 | Count the Number of Complete Components | 🟡 Medium |
 | 3514 | Path Existence Queries in a Graph I | 🟡 Medium |
 | 3515 | Path Existence Queries in a Graph II | 🟡 Medium |
 
@@ -30,9 +34,11 @@ Graph problems are essential for coding interviews and competitive programming. 
 ## 🎯 Learning Objectives
 
 - Understand graph representations
-- Master Union Find (Disjoint Set Union)
-- Learn graph connectivity techniques
-- Solve path existence and connectivity queries efficiently
+- Master graph traversal using DFS and BFS
+- Learn Union Find (Disjoint Set Union)
+- Identify connected components efficiently
+- Solve path existence and connectivity queries
+- Recognize complete graph structures
 - Build a strong foundation for advanced graph algorithms
 
 ---
@@ -45,18 +51,18 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **2**
+- **Problems Solved:** **3**
 
 - 🟢 Easy: **0**
-- 🟡 Medium: **2**
+- 🟡 Medium: **3**
 - 🔴 Hard: **0**
 
 ---
 
 ## 🚀 Next Goal
 
-Continue solving graph problems to strengthen graph traversal, connectivity, shortest path, and advanced graph algorithm skills.
+Continue solving graph problems to strengthen graph traversal, connectivity, shortest path, Union Find, and advanced graph algorithm skills.
 
 ---
 
-⭐ **Consistency beats intensity. Every solved graph problem strengthens algorithmic thinking and problem-solving skills.**
+⭐ **Graphs teach us that every connection matters—mastering them unlocks countless algorithmic problem-solving techniques.**
