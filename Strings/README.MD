@@ -1,6 +1,6 @@
 # 📖 Strings
 
-This folder contains solutions to LeetCode problems related to **String Manipulation, Two Pointers, Character Processing, Pattern Matching, Hashing, and Sliding Window techniques** implemented in Java.
+This folder contains solutions to LeetCode problems related to **String Manipulation, Two Pointers, Character Processing, Pattern Matching, Hashing, Sliding Window, and Stack-based String Processing** implemented in Java.
 
 ---
 
@@ -17,6 +17,8 @@ This folder contains solutions to LeetCode problems related to **String Manipula
 - Frequency Counting
 - Prefix Matching
 - String Reversal
+- String Compression
+- Stack-based String Processing
 
 ---
 
@@ -24,15 +26,17 @@ This folder contains solutions to LeetCode problems related to **String Manipula
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| 125 | Valid Palindrome | 🟢 Easy |
-| 58 | Length of Last Word | 🟢 Easy |
-| 205 | Isomorphic Strings | 🟢 Easy |
 | 28 | Find the Index of the First Occurrence in a String | 🟢 Easy |
-| 806 | Number of Lines To Write String | 🟢 Easy |
-| 819 | Most Common Word | 🟢 Easy |
-| 14 | Longest Common Prefix | 🟢 Easy |
+| 58 | Length of Last Word | 🟢 Easy |
+| 125 | Valid Palindrome | 🟢 Easy |
+| 205 | Isomorphic Strings | 🟢 Easy |
 | 242 | Valid Anagram | 🟢 Easy |
 | 344 | Reverse String | 🟢 Easy |
+| 443 | String Compression | 🟡 Medium |
+| 806 | Number of Lines To Write String | 🟢 Easy |
+| 819 | Most Common Word | 🟢 Easy |
+| 1047 | Remove All Adjacent Duplicates In String | 🟢 Easy |
+| 14 | Longest Common Prefix | 🟢 Easy |
 | 3 | Longest Substring Without Repeating Characters | 🟡 Medium |
 
 ---
@@ -45,6 +49,7 @@ This folder contains solutions to LeetCode problems related to **String Manipula
 - Build strong foundations for advanced string algorithms
 - Practice Sliding Window and Hashing techniques
 - Strengthen Two Pointer techniques
+- Learn Stack-based string manipulation
 
 ---
 
@@ -56,18 +61,18 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **10**
+- **Problems Solved:** **12**
 
-- 🟢 Easy: **9**
-- 🟡 Medium: **1**
+- 🟢 Easy: **10**
+- 🟡 Medium: **2**
 - 🔴 Hard: **0**
 
 ---
 
-## 🚀 Next Step
+## 🚀 Next Goal
 
-Continue solving String problems to master common interview patterns and advanced string manipulation techniques.
+Continue solving String problems to master common interview patterns, advanced string algorithms, and efficient text-processing techniques.
 
 ---
 
-⭐ **Consistency beats intensity. Every solved problem strengthens problem-solving skills and interview confidence.**
+⭐ **Consistency beats intensity. Every solved string problem sharpens problem-solving skills and strengthens algorithmic thinking.**
