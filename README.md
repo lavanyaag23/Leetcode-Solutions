@@ -25,21 +25,21 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 ## 📊 Progress Tracker
 
 | Topic               | Problems Solved |
-| ------------------- | --------------: |
-| Arrays              |          **18** |
-| Strings             |          **12** |
-| Linked List         |          **10** |
-| Stack               |           **2** |
-| Queue               |           **0** |
-| Trees               |           **0** |
-| Graphs              |           **3** |
-| Dynamic Programming |           **3** |
-| Greedy              |           **2** |
-| Bit Manipulation    |           **1** |
-| Math                |           **3** |
-| Binary Search       |           **2** |
-| Contests            |           **1** |
-| **Total**           |          **57** |
+|----------------------|----------------:|
+| Arrays               | **20** |
+| Strings              | **11** |
+| Linked List          | **10** |
+| Stack                | **3** |
+| Queue                | **0** |
+| Trees                | **0** |
+| Graphs               | **3** |
+| Dynamic Programming  | **4** |
+| Greedy               | **2** |
+| Bit Manipulation     | **1** |
+| Math                 | **4** |
+| Binary Search        | **2** |
+| Contests             | **1** |
+| **Total**            | **61** |
 
 ---
 
@@ -112,6 +112,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 |-----------:|---------|
 | 20 | Valid Parentheses |
 | 1047 | Remove All Adjacent Duplicates In String |
+| 1475 | Final Prices With a Special Discount in a Shop |
 
 ---
 ### 📌 Graphs
@@ -157,6 +158,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 202 | Happy Number |
 | 69 | Sqrt(x) |
 | 1291 | Sequential Digits |
+| 3658 | GCD of Odd and Even Sums |
 
 ---
 
@@ -215,7 +217,7 @@ LeetCode-Solutions
 │   ├── LC443_StringCompression.java
 │   ├── LC806_NumberOfLinesToWriteString.java
 │   ├── LC819_MostCommonWord.java
-│   └── LC1047_RemoveAllAdjacentDuplicatesInString.java
+│  
 │
 ├── LinkedList
 │   ├── LC19_RemoveNthNodeFromEnd.java
@@ -237,6 +239,7 @@ LeetCode-Solutions
 ├── DynamicProgramming
 │   ├── LC213_HouseRobberII.java
 │   ├── LC509_FibonacciNumber.java
+│   ├── LC918_MaximumSumCircularSubarray.java
 │   └── LC3336_FindTheNumberOfSubsequencesWithEqualGCD.java
 │
 ├── Greedy
@@ -249,8 +252,9 @@ LeetCode-Solutions
 ├── Math
 │   ├── LC69_SqrtX.java
 │   ├── LC202_HappyNumber.java
-│   └── LC1291_SequentialDigits.java
-│
+│   ├── LC1291_SequentialDigits.java
+│   └── LC3658_GCDOfOddAndEvenSums.java
+|
 ├── Contests
 │   └── ConcatenateNonZeroDigitsAndMultiplyBySumII.java
 │
@@ -260,7 +264,8 @@ LeetCode-Solutions
 |
 ├── Stack
 │   ├── LC20_ValidParentheses.java
-│   └── LC1047_RemoveAllAdjacentDuplicatesInString.java
+│   ├── LC1047_RemoveAllAdjacentDuplicatesInString.java
+│   └── LC1475_FinalPricesWithASpecialDiscountInAShop.java
 ├── Queue
 └── Trees
 ```
