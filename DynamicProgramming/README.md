@@ -11,6 +11,8 @@ Dynamic Programming is a powerful technique used to solve complex problems by br
 - 1D Dynamic Programming
 - 2D Dynamic Programming
 - Fibonacci Pattern
+- Kadane's Algorithm
+- Circular Subarray DP
 - House Robber Pattern
 - Knapsack Variations
 - Subsequence Problems
@@ -30,6 +32,7 @@ Dynamic Programming is a powerful technique used to solve complex problems by br
 |---|---------|------------|
 | 509 | Fibonacci Number | 🟢 Easy |
 | 213 | House Robber II | 🟡 Medium |
+| 918 | Maximum Sum Circular Subarray | 🟡 Medium |
 | 3336 | Find the Number of Subsequences With Equal GCD | 🔴 Hard |
 
 ---
@@ -54,6 +57,7 @@ Dynamic Programming is a powerful technique used to solve complex problems by br
 - **Base Cases:** Handle the smallest inputs correctly.
 - **Memoization:** Store computed results to avoid repeated calculations.
 - **Tabulation:** Solve problems iteratively from the base case upward.
+- **Kadane's Algorithm:** Find maximum and minimum subarray sums efficiently.
 - **State Compression:** Optimize multidimensional state transitions.
 - **Optimization:** Reduce time and space complexity whenever possible.
 
@@ -67,10 +71,10 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **3**
+- **Problems Solved:** **4**
 
 - 🟢 Easy: **1**
-- 🟡 Medium: **1**
+- 🟡 Medium: **2**
 - 🔴 Hard: **1**
 
 ---
