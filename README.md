@@ -67,6 +67,8 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 75 | Sort Colors |
 | 611 | Valid Triangle Number |
 | 73 | Set Matrix Zeroes |
+| 189 | Rotate Array |
+| 1331 | Rank Transform of an Array |
 
 ---
 
@@ -85,7 +87,6 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 242 | Valid Anagram |
 | 344 | Reverse String |
 | 443 | String Compression |
-| 1047 | Remove All Adjacent Duplicates In String |
 
 ---
 
@@ -199,6 +200,8 @@ LeetCode-Solutions
 │   ├── LC611_ValidTriangleNumber.java
 │   ├── LC766_ToeplitzMatrix.java
 │   └── LC867_TransposeMatrix.java
+│   ├── LC189_RotateArray.java
+│   ├── LC1331_RankTransformOfAnArray.java
 |
 ├── Strings
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
