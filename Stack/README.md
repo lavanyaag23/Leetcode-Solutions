@@ -17,6 +17,8 @@ Stack is a fundamental data structure that follows the **Last In, First Out (LIF
 - Expression Evaluation
 - Next Greater Element
 - Balanced Brackets
+- Next Smaller Element
+- Discount Calculation Using Monotonic Stack
 
 ---
 
@@ -26,6 +28,7 @@ Stack is a fundamental data structure that follows the **Last In, First Out (LIF
 |---|---------|------------|
 | 20 | Valid Parentheses | 🟢 Easy |
 | 1047 | Remove All Adjacent Duplicates In String | 🟢 Easy |
+| 1475 | Final Prices With a Special Discount in a Shop | 🟢 Easy |
 
 ---
 
@@ -35,6 +38,7 @@ Stack is a fundamental data structure that follows the **Last In, First Out (LIF
 - Learn when to use a stack effectively
 - Solve bracket matching and expression problems
 - Understand monotonic stack concepts
+- Learn Next Greater and Next Smaller Element patterns
 - Build strong problem-solving skills using LIFO techniques
 
 ---
@@ -47,9 +51,9 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **2**
+- **Problems Solved:** **3**
 
-- 🟢 Easy: **2**
+- 🟢 Easy: **3**
 - 🟡 Medium: **0**
 - 🔴 Hard: **0**
 
