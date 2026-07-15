@@ -18,6 +18,7 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 - Prime Numbers
 - GCD & LCM
 - Powers & Exponents
+- Euclidean Algorithm
 
 ---
 
@@ -28,6 +29,7 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 | 69 | Sqrt(x) | 🟢 Easy |
 | 202 | Happy Number | 🟢 Easy |
 | 1291 | Sequential Digits | 🟡 Medium |
+| 3658 | GCD of Odd and Even Sums | 🟢 Easy |
 
 ---
 
@@ -37,6 +39,7 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 - Master number manipulation techniques
 - Learn efficient mathematical algorithms
 - Understand binary search in mathematical problems
+- Apply GCD and number theory concepts
 - Build strong problem-solving skills
 
 ---
@@ -49,9 +52,9 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **3**
+- **Problems Solved:** **4**
 
-- 🟢 Easy: **2**
+- 🟢 Easy: **3**
 - 🟡 Medium: **1**
 - 🔴 Hard: **0**
 
