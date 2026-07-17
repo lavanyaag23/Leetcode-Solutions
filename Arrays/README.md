@@ -28,6 +28,8 @@ Arrays are one of the most fundamental data structures and form the basis for un
 - Set Operations
 - Dutch National Flag Algorithm
 - Geometry & Triangle Validation
+- Coordinate Compression (Rank Transformation)
+- Three Sum Pattern
 
 ---
 
@@ -36,13 +38,17 @@ Arrays are one of the most fundamental data structures and form the basis for un
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 1 | Two Sum | 🟢 Easy |
+| 15 | 3Sum | 🟡 Medium |
 | 27 | Remove Element | 🟢 Easy |
+| 48 | Rotate Image | 🟡 Medium |
 | 53 | Maximum Subarray | 🟡 Medium |
+| 54 | Spiral Matrix | 🟡 Medium |
 | 66 | Plus One | 🟢 Easy |
 | 73 | Set Matrix Zeroes | 🟡 Medium |
 | 75 | Sort Colors | 🟡 Medium |
 | 88 | Merge Sorted Array | 🟢 Easy |
 | 121 | Best Time to Buy and Sell Stock | 🟢 Easy |
+| 189 | Rotate Array | 🟡 Medium |
 | 217 | Contains Duplicate | 🟢 Easy |
 | 238 | Product of Array Except Self | 🟡 Medium |
 | 268 | Missing Number | 🟢 Easy |
@@ -51,8 +57,7 @@ Arrays are one of the most fundamental data structures and form the basis for un
 | 611 | Valid Triangle Number | 🟡 Medium |
 | 766 | Toeplitz Matrix | 🟢 Easy |
 | 867 | Transpose Matrix | 🟢 Easy |
-| 48 | Rotate Image | 🟡 Medium |
-| 54 | Spiral Matrix | 🟡 Medium |
+| 1331 | Rank Transform of an Array | 🟢 Easy |
 
 ---
 
@@ -67,6 +72,7 @@ Arrays are one of the most fundamental data structures and form the basis for un
 - Apply HashMap and Two Pointer techniques effectively
 - Improve matrix traversal and manipulation skills
 - Solve in-place array transformation problems
+- Recognize common sorting and two-pointer patterns
 
 ---
 
@@ -78,10 +84,10 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **18**
+- **Problems Solved:** **21**
 
-- 🟢 Easy: **11**
-- 🟡 Medium: **7**
+- 🟢 Easy: **12**
+- 🟡 Medium: **9**
 - 🔴 Hard: **0**
 
 ---
