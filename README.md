@@ -23,23 +23,22 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 ---
 
 ## 📊 Progress Tracker
-
 | Topic               | Problems Solved |
-|----------------------|----------------:|
-| Arrays               | **20** |
-| Strings              | **11** |
-| Linked List          | **10** |
-| Stack                | **3** |
-| Queue                | **0** |
-| Trees                | **0** |
-| Graphs               | **3** |
-| Dynamic Programming  | **4** |
-| Greedy               | **2** |
-| Bit Manipulation     | **1** |
-| Math                 | **4** |
-| Binary Search        | **2** |
-| Contests             | **1** |
-| **Total**            | **61** |
+| ------------------- | --------------: |
+| Arrays              |          **21** |
+| Strings             |          **12** |
+| Linked List         |          **10** |
+| Stack               |           **5** |
+| Queue               |           **0** |
+| Trees               |           **0** |
+| Graphs              |           **3** |
+| Dynamic Programming |           **5** |
+| Greedy              |           **2** |
+| Bit Manipulation    |           **1** |
+| Math                |           **4** |
+| Binary Search       |           **2** |
+| Contests            |           **1** |
+| **Total**           |          **66** |
 
 ---
 
@@ -69,6 +68,9 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 73 | Set Matrix Zeroes |
 | 189 | Rotate Array |
 | 1331 | Rank Transform of an Array |
+| 15 | 3Sum | 🟡 Medium |
+| 189 | Rotate Array | 🟡 Medium |
+| 1331 | Rank Transform of an Array | 🟢 Easy |
 
 ---
 
@@ -111,8 +113,10 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | LeetCode # | Problem |
 |-----------:|---------|
 | 20 | Valid Parentheses |
+| 1021 | Remove Outermost Parentheses |
 | 1047 | Remove All Adjacent Duplicates In String |
 | 1475 | Final Prices With a Special Discount in a Shop |
+| 2696 | Minimum String Length After Removing Substrings |
 
 ---
 ### 📌 Graphs
@@ -130,7 +134,9 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 |-----------:|---------|
 | 213 | House Robber II |
 | 509 | Fibonacci Number |
+| 918 | Maximum Sum Circular Subarray |
 | 3336 | Find the Number of Subsequences With Equal GCD |
+| 3312 | Sorted GCD Pair Queries |
 
 ---
 
@@ -204,6 +210,9 @@ LeetCode-Solutions
 │   └── LC867_TransposeMatrix.java
 │   ├── LC189_RotateArray.java
 │   ├── LC1331_RankTransformOfAnArray.java
+|   ├── LC15_3Sum.java
+│   ├── LC189_RotateArray.java
+│   └── LC1331_RankTransformOfAnArray.java
 |
 ├── Strings
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
@@ -241,6 +250,7 @@ LeetCode-Solutions
 │   ├── LC509_FibonacciNumber.java
 │   ├── LC918_MaximumSumCircularSubarray.java
 │   └── LC3336_FindTheNumberOfSubsequencesWithEqualGCD.java
+│   └── LC3312_SortedGCDPairQueries.java
 │
 ├── Greedy
 │   ├── LC55_JumpGame.java
@@ -263,6 +273,8 @@ LeetCode-Solutions
 │   └── LC704_BinarySearch.java
 |
 ├── Stack
+│   ├── LC1021_RemoveOutermostParentheses.java
+│   └── LC2696_MinimumStringLengthAfterRemovingSubstrings.java
 │   ├── LC20_ValidParentheses.java
 │   ├── LC1047_RemoveAllAdjacentDuplicatesInString.java
 │   └── LC1475_FinalPricesWithASpecialDiscountInAShop.java
