@@ -18,10 +18,11 @@ Dynamic Programming is a powerful technique used to solve complex problems by br
 - Subsequence Problems
 - GCD Dynamic Programming
 - State Compression
+- Memoization
+- Tabulation
 - Partition DP
 - Optimization Problems
 - State Transition Problems
-- Circular DP
 - Space Optimization
 
 ---
@@ -33,6 +34,7 @@ Dynamic Programming is a powerful technique used to solve complex problems by br
 | 509 | Fibonacci Number | 🟢 Easy |
 | 213 | House Robber II | 🟡 Medium |
 | 918 | Maximum Sum Circular Subarray | 🟡 Medium |
+| 3312 | Sorted GCD Pair Queries | 🔴 Hard |
 | 3336 | Find the Number of Subsequences With Equal GCD | 🔴 Hard |
 
 ---
@@ -44,7 +46,7 @@ Dynamic Programming is a powerful technique used to solve complex problems by br
 - Learn recursion, memoization, and tabulation
 - Apply space optimization techniques
 - Solve optimization-based problems efficiently
-- Handle special cases such as circular arrays
+- Handle linear and circular Dynamic Programming problems
 - Master multidimensional DP and GCD-based state transitions
 - Build strong intuition for Dynamic Programming patterns
 
@@ -71,11 +73,11 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **4**
+- **Problems Solved:** **5**
 
 - 🟢 Easy: **1**
 - 🟡 Medium: **2**
-- 🔴 Hard: **1**
+- 🔴 Hard: **2**
 
 ---
 
