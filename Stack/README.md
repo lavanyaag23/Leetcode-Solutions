@@ -16,8 +16,8 @@ Stack is a fundamental data structure that follows the **Last In, First Out (LIF
 - Stack Simulation
 - Expression Evaluation
 - Next Greater Element
-- Balanced Brackets
 - Next Smaller Element
+- Balanced Brackets
 - Discount Calculation Using Monotonic Stack
 
 ---
@@ -27,8 +27,10 @@ Stack is a fundamental data structure that follows the **Last In, First Out (LIF
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 20 | Valid Parentheses | 🟢 Easy |
+| 1021 | Remove Outermost Parentheses | 🟢 Easy |
 | 1047 | Remove All Adjacent Duplicates In String | 🟢 Easy |
 | 1475 | Final Prices With a Special Discount in a Shop | 🟢 Easy |
+| 2696 | Minimum String Length After Removing Substrings | 🟢 Easy |
 
 ---
 
@@ -51,9 +53,9 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **3**
+- **Problems Solved:** **5**
 
-- 🟢 Easy: **3**
+- 🟢 Easy: **5**
 - 🟡 Medium: **0**
 - 🔴 Hard: **0**
 
