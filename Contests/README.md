@@ -11,6 +11,8 @@ Contest problems help improve problem-solving speed, logical thinking, and the a
 - Problem Solving Under Time Constraints
 - Arrays & Strings
 - Mathematical Simulation
+- Number Theory
+- GCD & LCM
 - Hashing
 - Greedy Techniques
 - Dynamic Programming
@@ -24,6 +26,7 @@ Contest problems help improve problem-solving speed, logical thinking, and the a
 | Problem | Difficulty |
 |---------|------------|
 | Concatenate Non-Zero Digits and Multiply by Sum II | 🟡 Medium |
+| Sum of GCD of Formed Pairs | 🟡 Medium |
 
 ---
 
@@ -32,6 +35,7 @@ Contest problems help improve problem-solving speed, logical thinking, and the a
 - Improve competitive programming skills
 - Practice solving unfamiliar problems quickly
 - Apply DSA concepts in contest environments
+- Strengthen mathematical and algorithmic reasoning
 - Develop efficient coding strategies
 - Improve implementation speed and accuracy
 
@@ -45,18 +49,18 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **1**
+- **Problems Solved:** **2**
 
 - 🟢 Easy: **0**
-- 🟡 Medium: **1**
+- 🟡 Medium: **2**
 - 🔴 Hard: **0**
 
 ---
 
 ## 🚀 Next Goal
 
-Continue participating in LeetCode contests and solving more challenging problems to improve algorithmic thinking and competitive programming skills.
+Continue participating in LeetCode contests, solve more challenging problems, and strengthen speed, accuracy, and optimization skills under contest conditions.
 
 ---
 
-⭐ **Every contest problem is a step towards becoming a better problem solver.**
+⭐ **Every contest problem is an opportunity to learn, optimize, and grow as a competitive programmer.**
