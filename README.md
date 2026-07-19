@@ -23,22 +23,23 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 ---
 
 ## 📊 Progress Tracker
+
 | Topic               | Problems Solved |
 | ------------------- | --------------: |
 | Arrays              |          **21** |
-| Strings             |          **12** |
+| Strings             |          **11** |
 | Linked List         |          **10** |
-| Stack               |           **5** |
-| Queue               |           **0** |
+| Stack               |           **6** |
+| Queue               |           **1** |
 | Trees               |           **0** |
 | Graphs              |           **3** |
 | Dynamic Programming |           **5** |
 | Greedy              |           **2** |
 | Bit Manipulation    |           **1** |
-| Math                |           **4** |
+| Math                |           **5** |
 | Binary Search       |           **2** |
 | Contests            |           **1** |
-| **Total**           |          **66** |
+| **Total**           |          **68** |
 
 ---
 
@@ -108,7 +109,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 61 | Rotate List |
 
 ---
-## 📌 Stack
+### 📌 Stack
 
 | LeetCode # | Problem |
 |-----------:|---------|
@@ -117,6 +118,14 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 1047 | Remove All Adjacent Duplicates In String |
 | 1475 | Final Prices With a Special Discount in a Shop |
 | 2696 | Minimum String Length After Removing Substrings |
+| 1081 | Smallest Subsequence of Distinct Characters |
+
+---
+### 📌 Queue
+
+| LeetCode # | Problem |
+|-----------:|---------|
+| 232 | Implement Queue using Stacks |
 
 ---
 ### 📌 Graphs
@@ -165,6 +174,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 69 | Sqrt(x) |
 | 1291 | Sequential Digits |
 | 3658 | GCD of Odd and Even Sums |
+| 1979 | Find Greatest Common Divisor of Array |
 
 ---
 
@@ -191,6 +201,7 @@ LeetCode-Solutions
 |
 ├── Arrays
 │   ├── LC1_TwoSum.java
+│   ├── LC15_3Sum.java
 │   ├── LC27_RemoveElement.java
 │   ├── LC48_RotateImage.java
 │   ├── LC53_MaximumSubarray.java
@@ -200,6 +211,7 @@ LeetCode-Solutions
 │   ├── LC75_SortColors.java
 │   ├── LC88_MergeSortedArray.java
 │   ├── LC121_BestTimeToBuySellStock.java
+│   ├── LC189_RotateArray.java
 │   ├── LC217_ContainsDuplicate.java
 │   ├── LC238_ProductOfArrayExceptSelf.java
 │   ├── LC268_MissingNumber.java
@@ -207,13 +219,8 @@ LeetCode-Solutions
 │   ├── LC350_IntersectionOfTwoArraysII.java
 │   ├── LC611_ValidTriangleNumber.java
 │   ├── LC766_ToeplitzMatrix.java
-│   └── LC867_TransposeMatrix.java
-│   ├── LC189_RotateArray.java
-│   ├── LC1331_RankTransformOfAnArray.java
-|   ├── LC15_3Sum.java
-│   ├── LC189_RotateArray.java
+│   ├── LC867_TransposeMatrix.java
 │   └── LC1331_RankTransformOfAnArray.java
-|
 ├── Strings
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
 │   ├── LC14_LongestCommonPrefix.java
@@ -227,7 +234,6 @@ LeetCode-Solutions
 │   ├── LC806_NumberOfLinesToWriteString.java
 │   ├── LC819_MostCommonWord.java
 │  
-│
 ├── LinkedList
 │   ├── LC19_RemoveNthNodeFromEnd.java
 │   ├── LC21_MergeTwoSortedLists.java
@@ -249,8 +255,8 @@ LeetCode-Solutions
 │   ├── LC213_HouseRobberII.java
 │   ├── LC509_FibonacciNumber.java
 │   ├── LC918_MaximumSumCircularSubarray.java
+│   ├── LC3312_SortedGCDPairQueries.java
 │   └── LC3336_FindTheNumberOfSubsequencesWithEqualGCD.java
-│   └── LC3312_SortedGCDPairQueries.java
 │
 ├── Greedy
 │   ├── LC55_JumpGame.java
@@ -258,27 +264,26 @@ LeetCode-Solutions
 │
 ├── BitManipulation
 │   └── LC231_PowerOfTwo.java
-│
 ├── Math
 │   ├── LC69_SqrtX.java
 │   ├── LC202_HappyNumber.java
 │   ├── LC1291_SequentialDigits.java
+│   ├── LC1979_FindGreatestCommonDivisorOfArray.java
 │   └── LC3658_GCDOfOddAndEvenSums.java
-|
 ├── Contests
 │   └── ConcatenateNonZeroDigitsAndMultiplyBySumII.java
-│
 ├── BinarySearch
 │   ├── LC35_SearchInsertPosition.java
 │   └── LC704_BinarySearch.java
-|
 ├── Stack
-│   ├── LC1021_RemoveOutermostParentheses.java
-│   └── LC2696_MinimumStringLengthAfterRemovingSubstrings.java
 │   ├── LC20_ValidParentheses.java
+│   ├── LC1021_RemoveOutermostParentheses.java
 │   ├── LC1047_RemoveAllAdjacentDuplicatesInString.java
-│   └── LC1475_FinalPricesWithASpecialDiscountInAShop.java
+│   ├── LC1081_SmallestSubsequenceOfDistinctCharacters.java
+│   ├── LC1475_FinalPricesWithASpecialDiscountInAShop.java
+│   └── LC2696_MinimumStringLengthAfterRemovingSubstrings.java
 ├── Queue
+│   └── LC232_ImplementQueueUsingStacks.java
 └── Trees
 ```
 
