@@ -2,7 +2,7 @@
 
 This folder contains solutions to LeetCode problems related to **Mathematics** implemented in Java.
 
-Math problems focus on number theory, arithmetic operations, digit manipulation, modular arithmetic, and mathematical reasoning to build efficient solutions.
+Math problems focus on number theory, arithmetic operations, digit manipulation, modular arithmetic, GCD/LCM, binary search on numbers, and mathematical reasoning to build efficient solutions.
 
 ---
 
@@ -14,11 +14,11 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 - Binary Search on Answer
 - Integer Square Root
 - Sequential Number Generation
+- Greatest Common Divisor (GCD)
+- Euclidean Algorithm
 - Modular Arithmetic
 - Prime Numbers
-- GCD & LCM
 - Powers & Exponents
-- Euclidean Algorithm
 
 ---
 
@@ -29,6 +29,7 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 | 69 | Sqrt(x) | 🟢 Easy |
 | 202 | Happy Number | 🟢 Easy |
 | 1291 | Sequential Digits | 🟡 Medium |
+| 1979 | Find Greatest Common Divisor of Array | 🟢 Easy |
 | 3658 | GCD of Odd and Even Sums | 🟢 Easy |
 
 ---
@@ -38,9 +39,9 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 - Improve mathematical reasoning
 - Master number manipulation techniques
 - Learn efficient mathematical algorithms
-- Understand binary search in mathematical problems
-- Apply GCD and number theory concepts
-- Build strong problem-solving skills
+- Understand the Euclidean Algorithm for GCD
+- Apply binary search in mathematical problems
+- Build strong problem-solving skills using mathematical concepts
 
 ---
 
@@ -52,9 +53,9 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **4**
+- **Problems Solved:** **5**
 
-- 🟢 Easy: **3**
+- 🟢 Easy: **4**
 - 🟡 Medium: **1**
 - 🔴 Hard: **0**
 
