@@ -72,6 +72,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 15 | 3Sum | 🟡 Medium |
 | 189 | Rotate Array | 🟡 Medium |
 | 1331 | Rank Transform of an Array | 🟢 Easy |
+| 1260 | Shift 2D Grid |
 
 ---
 
@@ -90,6 +91,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 242 | Valid Anagram |
 | 344 | Reverse String |
 | 443 | String Compression |
+| 3228 | Maximize Active Section with Trade I |
 
 ---
 
@@ -107,6 +109,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 19 | Remove Nth Node From End of List |
 | 24 | Swap Nodes in Pairs |
 | 61 | Rotate List |
+| 142 | Linked List Cycle II |
 
 ---
 ### 📌 Stack
@@ -119,6 +122,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 1475 | Final Prices With a Special Discount in a Shop |
 | 2696 | Minimum String Length After Removing Substrings |
 | 1081 | Smallest Subsequence of Distinct Characters |
+| 225 | Implement Stack using Queues |
 
 ---
 ### 📌 Queue
@@ -126,6 +130,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | LeetCode # | Problem |
 |-----------:|---------|
 | 232 | Implement Queue using Stacks |
+| 933 | Number of Recent Calls |
 
 ---
 ### 📌 Graphs
