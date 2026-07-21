@@ -24,22 +24,22 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ## 📊 Progress Tracker
 
-| Topic               | Problems Solved |
-| ------------------- | --------------: |
-| Arrays              |          **21** |
-| Strings             |          **11** |
-| Linked List         |          **10** |
-| Stack               |           **6** |
-| Queue               |           **1** |
-| Trees               |           **0** |
-| Graphs              |           **3** |
-| Dynamic Programming |           **5** |
-| Greedy              |           **2** |
-| Bit Manipulation    |           **1** |
-| Math                |           **5** |
-| Binary Search       |           **2** |
-| Contests            |           **1** |
-| **Total**           |          **68** |
+| Topic               | Problems |
+| ------------------- | -------: |
+| Arrays              |   **22** |
+| Strings             |   **12** |
+| Linked List         |   **11** |
+| Stack               |    **7** |
+| Queue               |    **2** |
+| Trees               |    **0** |
+| Graphs              |    **3** |
+| Dynamic Programming |    **5** |
+| Greedy              |    **2** |
+| Bit Manipulation    |    **1** |
+| Math                |    **5** |
+| Binary Search       |    **2** |
+| Contests            |    **1** |
+| **Total**           |   **73** |
 
 ---
 
