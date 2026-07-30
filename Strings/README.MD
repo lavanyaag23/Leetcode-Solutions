@@ -26,18 +26,19 @@ This folder contains solutions to LeetCode problems related to **String Manipula
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 3 | Longest Substring Without Repeating Characters | 🟡 Medium |
+| 14 | Longest Common Prefix | 🟢 Easy |
 | 28 | Find the Index of the First Occurrence in a String | 🟢 Easy |
 | 58 | Length of Last Word | 🟢 Easy |
 | 125 | Valid Palindrome | 🟢 Easy |
 | 205 | Isomorphic Strings | 🟢 Easy |
 | 242 | Valid Anagram | 🟢 Easy |
+| 3228 | Maximize Active Section with Trade I | 🟡 Medium |
 | 344 | Reverse String | 🟢 Easy |
 | 443 | String Compression | 🟡 Medium |
 | 806 | Number of Lines To Write String | 🟢 Easy |
 | 819 | Most Common Word | 🟢 Easy |
-| 1047 | Remove All Adjacent Duplicates In String | 🟢 Easy |
-| 14 | Longest Common Prefix | 🟢 Easy |
-| 3 | Longest Substring Without Repeating Characters | 🟡 Medium |
+| 3517 | Smallest Palindromic Rearrangement I | 🟡 Medium |
 
 ---
 
@@ -61,10 +62,10 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **12**
+- **Problems Solved:** **13**
 
-- 🟢 Easy: **10**
-- 🟡 Medium: **2**
+- 🟢 Easy: **9**
+- 🟡 Medium: **4**
 - 🔴 Hard: **0**
 
 ---
