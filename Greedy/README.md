@@ -1,53 +1,55 @@
 # 🎯 Greedy Algorithms
 
-This folder contains solutions to LeetCode problems related to **Greedy Algorithms** implemented in Java.
+This folder contains solutions to **LeetCode Greedy Algorithm problems** implemented in **Java**.
 
-Greedy algorithms build a solution step by step by making the locally optimal choice at each stage. They are widely used for optimization problems and often provide efficient solutions with linear or near-linear complexity.
+Greedy algorithms solve optimization problems by making the **best possible choice at each step** with the aim of achieving the optimal overall solution. These techniques are commonly used in competitive programming and coding interviews.
 
 ---
 
 ## 📚 Topics Covered
 
-- Array-based Greedy Problems
-- Interval Problems
-- Jump Game Variations
-- Maximum/Minimum Optimization Problems
-- Scheduling Problems
-- Partitioning Problems
-- Sorting + Greedy
-- Two Pointers
+* Greedy Choice Strategy
+* Array-based Greedy Problems
+* Optimization Problems
+* Jump Game Pattern
+* Sorting + Greedy Approach
+* Resource Allocation
+* Decision Making Strategies
+* Frequency-Based Greedy Techniques
 
 ---
 
 ## ✅ Solved Problems
 
-| # | Problem | Difficulty |
-|---|---------|------------|
-| 55 | Jump Game | 🟡 Medium |
-| 455 | Assign Cookies | 🟢 Easy |
+| LeetCode # | Problem                                 | Difficulty |
+| ---------: | --------------------------------------- | ---------- |
+|         55 | Jump Game                               | 🟡 Medium  |
+|        455 | Assign Cookies                          | 🟢 Easy    |
+|       3014 | Minimum Number of Pushes to Type Word I | 🟢 Easy    |
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Understand greedy decision-making strategies
-- Learn how to identify locally optimal choices
-- Improve array traversal techniques
-- Solve optimization and resource allocation problems
-- Distinguish between Greedy and Dynamic Programming approaches
-- Apply sorting with greedy techniques
+* Understand greedy decision-making techniques
+* Identify problems where greedy strategies can be applied
+* Learn local optimization and global optimization concepts
+* Improve array traversal and problem-solving skills
+* Understand the difference between Greedy and Dynamic Programming
+* Apply sorting and frequency-based approaches effectively
 
 ---
 
 ## 💡 Key Concepts
 
-- Greedy Choice Property
-- Local vs Global Optimization
-- Farthest Reach Concept
-- Sorting Before Processing
-- Two Pointers
-- Single Pass Array Traversal
-- Early Termination Conditions
+* Greedy Choice Property
+* Optimal Substructure
+* Local vs Global Optimization
+* Sorting-Based Greedy
+* Frequency Counting
+* Single Pass Traversal
+* Two Pointer Technique
+* Early Termination
 
 ---
 
@@ -59,18 +61,20 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **2**
+* **Problems Solved:** **3**
 
-- 🟢 Easy: **1**
-- 🟡 Medium: **1**
-- 🔴 Hard: **0**
+* 🟢 Easy: **2**
 
----
+* 🟡 Medium: **1**
 
-## 🚀 Next Step
-
-Continue solving Greedy problems to strengthen optimization skills and recognize patterns commonly asked in coding interviews.
+* 🔴 Hard: **0**
 
 ---
 
-⭐ **Greedy algorithms make the best choice at every step—mastering them leads to elegant and efficient solutions.**
+## 🚀 Next Goal
+
+Continue solving more Greedy problems to strengthen optimization skills, master common interview patterns, and understand efficient decision-making approaches.
+
+---
+
+⭐ **Greedy algorithms prove that choosing the right move at the right time can lead to optimal solutions.**
