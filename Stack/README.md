@@ -16,10 +16,10 @@ A stack is a fundamental data structure that follows the **Last In, First Out (L
 - Lexicographically Smallest Subsequences
 - Stack Simulation
 - Expression Evaluation
-- Next Greater Element
-- Next Smaller Element
-- Balanced Brackets
-- Discount Calculation Using Monotonic Stack
+- Reverse Polish Notation
+- Calculator Problems
+- Minimum Element Tracking
+- Stack Implementation
 
 ---
 
@@ -32,6 +32,10 @@ A stack is a fundamental data structure that follows the **Last In, First Out (L
 | 1047 | Remove All Adjacent Duplicates In String | 🟢 Easy |
 | 1081 | Smallest Subsequence of Distinct Characters | 🟡 Medium |
 | 1475 | Final Prices With a Special Discount in a Shop | 🟢 Easy |
+| 150 | Evaluate Reverse Polish Notation | 🟡 Medium |
+| 155 | Min Stack | 🟡 Medium |
+| 225 | Implement Stack using Queues | 🟢 Easy |
+| 227 | Basic Calculator II | 🟡 Medium |
 | 2696 | Minimum String Length After Removing Substrings | 🟢 Easy |
 
 ---
@@ -43,7 +47,8 @@ A stack is a fundamental data structure that follows the **Last In, First Out (L
 - Solve bracket matching and expression problems
 - Understand monotonic stack concepts
 - Learn Next Greater and Next Smaller Element patterns
-- Build lexicographically optimal subsequences
+- Practice expression evaluation techniques
+- Implement custom stack-based data structures
 - Strengthen problem-solving skills using LIFO techniques
 
 ---
@@ -56,10 +61,10 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **6**
+- **Problems Solved:** **10**
 
-- 🟢 Easy: **5**
-- 🟡 Medium: **1**
+- 🟢 Easy: **6**
+- 🟡 Medium: **4**
 - 🔴 Hard: **0**
 
 ---
@@ -70,4 +75,4 @@ Continue solving stack problems to master LIFO-based algorithms, monotonic stack
 
 ---
 
-⭐ **Stacks simplify complex problems by processing elements in the perfect order—Last In, First Out.**
+⭐ **Stacks simplify complex problems by processing elements in the perfect order — Last In, First Out.**
