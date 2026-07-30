@@ -72,14 +72,16 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 1331 | Rank Transform of an Array |
 | 1464 | Maximum Product of Two Elements in an Array |
 | 1502 | Can Make Arithmetic Progression From Sequence |
-| 3513 | Number of Unique XOR Triplets I |
-| 3514 | Number of Unique XOR Triplets II |
-| 3501 | Maximize Active Section with Trade II |
-| 3536 | Maximum Product of Two Digits |
 | 350 | Intersection of Two Arrays II |
 | 611 | Valid Triangle Number |
 | 766 | Toeplitz Matrix |
 | 867 | Transpose Matrix |
+| 349 | Intersection of Two Arrays |
+| 3499 | Maximize Active Section with Trade I |
+| 3501 | Maximize Active Section with Trade II |
+| 3513 | Number of Unique XOR Triplets I |
+| 3514 | Number of Unique XOR Triplets II |
+| 3536 | Maximum Product of Two Digits |
 
 ---
 
@@ -179,6 +181,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 |-----------:|---------|
 | 55 | Jump Game |
 | 455 | Assign Cookies |
+| 3014 | Minimum Number of Pushes to Type Word I |
 
 ---
 
