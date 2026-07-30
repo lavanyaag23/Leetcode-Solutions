@@ -12,8 +12,10 @@ A queue is a fundamental data structure that follows the **First In, First Out (
 - FIFO (First In, First Out)
 - Queue Implementation
 - Queue using Stacks
-- Simulation
+- Circular Queue
+- Deque Concepts
 - Data Structure Design
+- Simulation Problems
 - Amortized Analysis
 
 ---
@@ -23,6 +25,11 @@ A queue is a fundamental data structure that follows the **First In, First Out (
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 232 | Implement Queue using Stacks | 🟢 Easy |
+| 622 | Design Circular Queue | 🟡 Medium |
+| 933 | Number of Recent Calls | 🟢 Easy |
+| 1670 | Design Front Middle Back Queue | 🟡 Medium |
+| 1700 | Number of Students Unable to Eat Lunch | 🟢 Easy |
+| 2073 | Time Needed to Buy Tickets | 🟢 Easy |
 
 ---
 
@@ -31,8 +38,10 @@ A queue is a fundamental data structure that follows the **First In, First Out (
 - Understand queue operations and behavior
 - Learn FIFO-based problem-solving techniques
 - Implement queues using other data structures
+- Understand circular queue design
+- Practice deque and simulation-based problems
 - Analyze amortized time complexity
-- Build a strong foundation for BFS and simulation problems
+- Build a strong foundation for BFS traversal and interview problems
 
 ---
 
@@ -44,10 +53,10 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **1**
+- **Problems Solved:** **6**
 
-- 🟢 Easy: **1**
-- 🟡 Medium: **0**
+- 🟢 Easy: **4**
+- 🟡 Medium: **2**
 - 🔴 Hard: **0**
 
 ---
@@ -58,4 +67,4 @@ Continue solving queue problems to master FIFO-based algorithms, queue implement
 
 ---
 
-⭐ **Queues process data in the order it arrives—First In, First Out, ensuring fairness and efficiency.**
+⭐ **Queues process data in the order it arrives — First In, First Out, ensuring fairness and efficiency.**
