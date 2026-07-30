@@ -26,11 +26,11 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | Topic               | Problems |
 | ------------------- | -------: |
-| Arrays              |   **22** |
-| Strings             |   **12** |
-| Linked List         |   **11** |
-| Stack               |    **7** |
-| Queue               |    **2** |
+| Arrays              |   **30** |
+| Strings             |   **13** |
+| Linked List         |   **15** |
+| Stack               |   **11** |
+| Queue               |    **6** |
 | Trees               |    **0** |
 | Graphs              |    **3** |
 | Dynamic Programming |    **5** |
@@ -39,7 +39,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Math                |    **5** |
 | Binary Search       |    **2** |
 | Contests            |    **1** |
-| **Total**           |   **73** |
+| **Total**           |   **93** |
 
 ---
 
@@ -49,30 +49,33 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | LeetCode # | Problem |
 |-----------:|---------|
-| 268 | Missing Number |
-| 27 | Remove Element |
-| 66 | Plus One |
-| 867 | Transpose Matrix |
-| 238 | Product of Array Except Self |
 | 1 | Two Sum |
-| 121 | Best Time to Buy and Sell Stock |
+| 15 | 3Sum |
+| 27 | Remove Element |
 | 53 | Maximum Subarray |
-| 217 | Contains Duplicate |
-| 283 | Move Zeroes |
-| 88 | Merge Sorted Array |
-| 350 | Intersection of Two Arrays II |
-| 766 | Toeplitz Matrix |
-| 48 | Rotate Image |
-| 54 | Spiral Matrix |
-| 75 | Sort Colors |
-| 611 | Valid Triangle Number |
+| 66 | Plus One |
 | 73 | Set Matrix Zeroes |
+| 75 | Sort Colors |
+| 88 | Merge Sorted Array |
+| 121 | Best Time to Buy and Sell Stock |
 | 189 | Rotate Array |
-| 1331 | Rank Transform of an Array |
-| 15 | 3Sum | 🟡 Medium |
-| 189 | Rotate Array | 🟡 Medium |
-| 1331 | Rank Transform of an Array | 🟢 Easy |
+| 217 | Contains Duplicate |
+| 238 | Product of Array Except Self |
+| 268 | Missing Number |
+| 283 | Move Zeroes |
+| 350 | Intersection of Two Arrays II |
+| 611 | Valid Triangle Number |
+| 628 | Maximum Product of Three Numbers |
+| 766 | Toeplitz Matrix |
+| 867 | Transpose Matrix |
 | 1260 | Shift 2D Grid |
+| 1331 | Rank Transform of an Array |
+| 1464 | Maximum Product of Two Elements in an Array |
+| 1502 | Can Make Arithmetic Progression From Sequence |
+| 3513 | Number of Unique XOR Triplets I |
+| 3514 | Number of Unique XOR Triplets II |
+| 3501 | Maximize Active Section with Trade II |
+| 3536 | Maximum Product of Two Digits |
 
 ---
 
@@ -80,18 +83,19 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | LeetCode # | Problem |
 |-----------:|---------|
-| 125 | Valid Palindrome |
-| 58 | Length of Last Word |
-| 205 | Isomorphic Strings |
-| 28 | Find the Index of the First Occurrence in a String |
-| 806 | Number of Lines To Write String |
-| 819 | Most Common Word |
 | 3 | Longest Substring Without Repeating Characters |
 | 14 | Longest Common Prefix |
+| 28 | Find the Index of the First Occurrence in a String |
+| 58 | Length of Last Word |
+| 125 | Valid Palindrome |
+| 205 | Isomorphic Strings |
 | 242 | Valid Anagram |
+| 3228 | Maximize Active Section with Trade I |
 | 344 | Reverse String |
 | 443 | String Compression |
-| 3228 | Maximize Active Section with Trade I |
+| 806 | Number of Lines To Write String |
+| 819 | Most Common Word |
+| 3517 | Smallest Palindromic Rearrangement I |
 
 ---
 
@@ -99,38 +103,48 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | LeetCode # | Problem |
 |-----------:|---------|
+| 2 | Add Two Numbers |
+| 19 | Remove Nth Node From End of List |
 | 21 | Merge Two Sorted Lists |
+| 24 | Swap Nodes in Pairs |
+| 61 | Rotate List |
 | 83 | Remove Duplicates from Sorted List |
 | 141 | Linked List Cycle |
+| 142 | Linked List Cycle II |
 | 203 | Remove Linked List Elements |
 | 206 | Reverse Linked List |
 | 234 | Palindrome Linked List |
+| 445 | Add Two Numbers II |
+| 707 | Design Linked List |
 | 876 | Middle of the Linked List |
-| 19 | Remove Nth Node From End of List |
-| 24 | Swap Nodes in Pairs |
-| 61 | Rotate List |
-| 142 | Linked List Cycle II |
 
 ---
-### 📌 Stack
+## 📌 Stack
 
 | LeetCode # | Problem |
 |-----------:|---------|
 | 20 | Valid Parentheses |
 | 1021 | Remove Outermost Parentheses |
 | 1047 | Remove All Adjacent Duplicates In String |
-| 1475 | Final Prices With a Special Discount in a Shop |
-| 2696 | Minimum String Length After Removing Substrings |
 | 1081 | Smallest Subsequence of Distinct Characters |
+| 1475 | Final Prices With a Special Discount in a Shop |
+| 155 | Min Stack |
 | 225 | Implement Stack using Queues |
+| 2696 | Minimum String Length After Removing Substrings |
+| 150 | Evaluate Reverse Polish Notation |
+| 227 | Basic Calculator II |
 
 ---
-### 📌 Queue
+## 📌 Queue
 
 | LeetCode # | Problem |
 |-----------:|---------|
 | 232 | Implement Queue using Stacks |
+| 622 | Design Circular Queue |
 | 933 | Number of Recent Calls |
+| 1670 | Design Front Middle Back Queue |
+| 1700 | Number of Students Unable to Eat Lunch |
+| 2073 | Time Needed to Buy Tickets |
 
 ---
 ### 📌 Graphs
@@ -226,6 +240,14 @@ LeetCode-Solutions
 │   ├── LC766_ToeplitzMatrix.java
 │   ├── LC867_TransposeMatrix.java
 │   └── LC1331_RankTransformOfAnArray.java
+│   ├── LC1260_Shift2DGrid.java
+│   ├── LC628_MaximumProductOfThreeNumbers.java
+│   ├── LC1464_MaximumProductOfTwoElements.java
+│   ├── LC1502_CanMakeArithmeticProgression.java
+│   ├── LC3513_NumberOfUniqueXORTripletsI.java
+│   ├── LC3514_NumberOfUniqueXORTripletsII.java
+│   ├── LC3501_MaximizeActiveSectionsWithTradeII.java
+│   └── LC3536_MaximumProductOfTwoDigits.java
 ├── Strings
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
 │   ├── LC14_LongestCommonPrefix.java
@@ -287,16 +309,25 @@ LeetCode-Solutions
 │   ├── LC1081_SmallestSubsequenceOfDistinctCharacters.java
 │   ├── LC1475_FinalPricesWithASpecialDiscountInAShop.java
 │   └── LC2696_MinimumStringLengthAfterRemovingSubstrings.java
+|   ├── LC155_MinStack.java
+│   ├── LC150_EvaluateReversePolishNotation.java
+│   ├── LC227_BasicCalculatorII.java
+│   └── LC225_ImplementStackUsingQueues.java
 ├── Queue
-│   └── LC232_ImplementQueueUsingStacks.java
+│   ├── LC232_ImplementQueueUsingStacks.java
+│   ├── LC622_DesignCircularQueue.java
+│   ├── LC933_NumberOfRecentCalls.java
+│   ├── LC1670_FrontMiddleBackQueue.java
+│   ├── LC1700_StudentsUnableToEatLunch.java
+│   └── LC2073_TimeNeededToBuyTickets.java
 └── Trees
 ```
 
 ---
-
 # 🚀 Current Targets
 
 * Solve **200+ LeetCode Problems**
+* Reach **100 LeetCode Problems Milestone 🎯**
 * Build Strong DSA Foundations
 * Master Common Interview Patterns
 * Maintain a Daily Coding Habit
