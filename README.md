@@ -39,7 +39,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | Math                |    **5** |
 | Binary Search       |    **2** |
 | Contests            |    **1** |
-| **Total**           |   **93** |
+| **Total**           |   **94** |
 
 ---
 
@@ -76,6 +76,10 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 3514 | Number of Unique XOR Triplets II |
 | 3501 | Maximize Active Section with Trade II |
 | 3536 | Maximum Product of Two Digits |
+| 350 | Intersection of Two Arrays II |
+| 611 | Valid Triangle Number |
+| 766 | Toeplitz Matrix |
+| 867 | Transpose Matrix |
 
 ---
 
@@ -117,6 +121,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 | 445 | Add Two Numbers II |
 | 707 | Design Linked List |
 | 876 | Middle of the Linked List |
+| 707 | Design Linked List |
 
 ---
 ## 📌 Stack
@@ -237,11 +242,11 @@ LeetCode-Solutions
 │   ├── LC283_MoveZeroes.java
 │   ├── LC350_IntersectionOfTwoArraysII.java
 │   ├── LC611_ValidTriangleNumber.java
+│   ├── LC628_MaximumProductOfThreeNumbers.java
 │   ├── LC766_ToeplitzMatrix.java
 │   ├── LC867_TransposeMatrix.java
-│   └── LC1331_RankTransformOfAnArray.java
 │   ├── LC1260_Shift2DGrid.java
-│   ├── LC628_MaximumProductOfThreeNumbers.java
+│   ├── LC1331_RankTransformOfAnArray.java
 │   ├── LC1464_MaximumProductOfTwoElements.java
 │   ├── LC1502_CanMakeArithmeticProgression.java
 │   ├── LC3513_NumberOfUniqueXORTripletsI.java
@@ -260,19 +265,39 @@ LeetCode-Solutions
 │   ├── LC443_StringCompression.java
 │   ├── LC806_NumberOfLinesToWriteString.java
 │   ├── LC819_MostCommonWord.java
-│  
 ├── LinkedList
+│   ├── LC2_AddTwoNumbers.java
 │   ├── LC19_RemoveNthNodeFromEnd.java
 │   ├── LC21_MergeTwoSortedLists.java
 │   ├── LC24_SwapNodesInPairs.java
 │   ├── LC61_RotateList.java
 │   ├── LC83_RemoveDuplicatesFromSortedList.java
 │   ├── LC141_LinkedListCycle.java
+│   ├── LC142_LinkedListCycleII.java
 │   ├── LC203_RemoveLinkedListElements.java
 │   ├── LC206_ReverseLinkedList.java
 │   ├── LC234_PalindromeLinkedList.java
+│   ├── LC445_AddTwoNumbersII.java
+│   ├── LC707_DesignLinkedList.java
 │   └── LC876_MiddleOfTheLinkedList.java
-│
+├── Stack
+│   ├── LC20_ValidParentheses.java
+│   ├── LC1021_RemoveOutermostParentheses.java
+│   ├── LC1047_RemoveAllAdjacentDuplicatesInString.java
+│   ├── LC1081_SmallestSubsequenceOfDistinctCharacters.java
+│   ├── LC1475_FinalPricesWithASpecialDiscountInAShop.java
+│   ├── LC155_MinStack.java
+│   ├── LC150_EvaluateReversePolishNotation.java
+│   ├── LC225_ImplementStackUsingQueues.java
+│   ├── LC227_BasicCalculatorII.java
+│   └── LC2696_MinimumStringLengthAfterRemovingSubstrings.java
+├── Queue
+│   ├── LC232_ImplementQueueUsingStacks.java
+│   ├── LC622_DesignCircularQueue.java
+│   ├── LC933_NumberOfRecentCalls.java
+│   ├── LC1670_FrontMiddleBackQueue.java
+│   ├── LC1700_StudentsUnableToEatLunch.java
+│   └── LC2073_TimeNeededToBuyTickets.java
 ├── Graphs
 │   ├── LC2685_CountTheNumberOfCompleteComponents.java
 │   ├── LC3514_PathExistenceQueriesInGraphI.java
@@ -302,24 +327,6 @@ LeetCode-Solutions
 ├── BinarySearch
 │   ├── LC35_SearchInsertPosition.java
 │   └── LC704_BinarySearch.java
-├── Stack
-│   ├── LC20_ValidParentheses.java
-│   ├── LC1021_RemoveOutermostParentheses.java
-│   ├── LC1047_RemoveAllAdjacentDuplicatesInString.java
-│   ├── LC1081_SmallestSubsequenceOfDistinctCharacters.java
-│   ├── LC1475_FinalPricesWithASpecialDiscountInAShop.java
-│   └── LC2696_MinimumStringLengthAfterRemovingSubstrings.java
-|   ├── LC155_MinStack.java
-│   ├── LC150_EvaluateReversePolishNotation.java
-│   ├── LC227_BasicCalculatorII.java
-│   └── LC225_ImplementStackUsingQueues.java
-├── Queue
-│   ├── LC232_ImplementQueueUsingStacks.java
-│   ├── LC622_DesignCircularQueue.java
-│   ├── LC933_NumberOfRecentCalls.java
-│   ├── LC1670_FrontMiddleBackQueue.java
-│   ├── LC1700_StudentsUnableToEatLunch.java
-│   └── LC2073_TimeNeededToBuyTickets.java
 └── Trees
 ```
 
