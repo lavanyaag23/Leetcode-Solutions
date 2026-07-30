@@ -19,6 +19,8 @@ Linked Lists are one of the most important data structures for coding interviews
 - Removing Nodes
 - Swapping Nodes
 - Rotating Linked Lists
+- Linked List Design
+- Addition of Numbers using Linked Lists
 
 ---
 
@@ -26,16 +28,20 @@ Linked Lists are one of the most important data structures for coding interviews
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 2 | Add Two Numbers | 🟡 Medium |
+| 19 | Remove Nth Node From End of List | 🟡 Medium |
 | 21 | Merge Two Sorted Lists | 🟢 Easy |
+| 24 | Swap Nodes in Pairs | 🟡 Medium |
+| 61 | Rotate List | 🟡 Medium |
 | 83 | Remove Duplicates from Sorted List | 🟢 Easy |
 | 141 | Linked List Cycle | 🟢 Easy |
+| 142 | Linked List Cycle II | 🟡 Medium |
 | 203 | Remove Linked List Elements | 🟢 Easy |
 | 206 | Reverse Linked List | 🟢 Easy |
 | 234 | Palindrome Linked List | 🟢 Easy |
+| 445 | Add Two Numbers II | 🟡 Medium |
+| 707 | Design Linked List | 🟡 Medium |
 | 876 | Middle of the Linked List | 🟢 Easy |
-| 19 | Remove Nth Node From End of List | 🟡 Medium |
-| 24 | Swap Nodes in Pairs | 🟡 Medium |
-| 61 | Rotate List | 🟡 Medium |
 
 ---
 
@@ -43,10 +49,12 @@ Linked Lists are one of the most important data structures for coding interviews
 
 - Master linked list operations
 - Understand pointer manipulation
-- Learn the Fast & Slow Pointer technique
+- Learn Fast & Slow Pointer technique
 - Practice in-place linked list modifications
+- Solve cycle detection problems
+- Implement custom linked list structures
+- Handle arithmetic operations using linked lists
 - Solve common interview questions efficiently
-- Build a strong foundation for advanced linked list problems
 
 ---
 
@@ -58,17 +66,17 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **10**
+- **Problems Solved:** **14**
 
-- 🟢 Easy: **7**
-- 🟡 Medium: **3**
+- 🟢 Easy: **8**
+- 🟡 Medium: **6**
 - 🔴 Hard: **0**
 
 ---
 
 ## 🚀 Next Step
 
-Continue solving more Linked List problems to strengthen pointer manipulation skills and master common coding interview patterns.
+Continue solving more Linked List problems to strengthen pointer manipulation skills, master advanced linked list patterns, and prepare for coding interviews.
 
 ---
 
