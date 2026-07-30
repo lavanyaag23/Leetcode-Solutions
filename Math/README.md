@@ -17,8 +17,8 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 - Greatest Common Divisor (GCD)
 - Euclidean Algorithm
 - Modular Arithmetic
-- Prime Numbers
 - Powers & Exponents
+- Number Properties
 
 ---
 
@@ -30,6 +30,7 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 | 202 | Happy Number | 🟢 Easy |
 | 1291 | Sequential Digits | 🟡 Medium |
 | 1979 | Find Greatest Common Divisor of Array | 🟢 Easy |
+| 3536 | Maximum Product of Two Digits | 🟢 Easy |
 | 3658 | GCD of Odd and Even Sums | 🟢 Easy |
 
 ---
@@ -41,6 +42,7 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 - Learn efficient mathematical algorithms
 - Understand the Euclidean Algorithm for GCD
 - Apply binary search in mathematical problems
+- Practice digit-based problem solving
 - Build strong problem-solving skills using mathematical concepts
 
 ---
@@ -53,9 +55,9 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **5**
+- **Problems Solved:** **6**
 
-- 🟢 Easy: **4**
+- 🟢 Easy: **5**
 - 🟡 Medium: **1**
 - 🔴 Hard: **0**
 
@@ -67,4 +69,4 @@ Continue solving Math problems to strengthen numerical reasoning, mathematical o
 
 ---
 
-⭐ **Mathematics is the foundation of efficient algorithms—strong fundamentals lead to elegant solutions.**
+⭐ **Mathematics is the foundation of efficient algorithms — strong fundamentals lead to elegant solutions.**
