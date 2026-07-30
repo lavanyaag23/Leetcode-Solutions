@@ -1,42 +1,31 @@
-# 📚 Arrays
+# 📊 Arrays
 
-This folder contains solutions to LeetCode problems related to **Arrays** implemented in Java.
+This folder contains solutions to **LeetCode Array problems** implemented in **Java**.
 
-Arrays are one of the most fundamental data structures and form the basis for understanding many advanced algorithms and problem-solving techniques.
+Arrays are one of the most important data structures in programming. These problems cover traversal, searching, sorting, hashing, two pointers, matrix operations, prefix techniques, and optimization approaches commonly asked in coding interviews.
 
 ---
 
-## 📚 Topics Covered
+## 📚 Concepts Covered
 
 - Array Traversal
-- Searching
-- Sorting
-- Binary Search
-- Prefix Sum
-- Two Pointers
+- Searching & Sorting
+- Two Pointer Technique
 - Sliding Window
-- Matrix Operations
-- Matrix Traversal
-- Matrix Rotation
+- Prefix & Suffix Arrays
+- Hashing
+- Matrix Manipulation
+- In-place Operations
 - Frequency Counting
-- Prefix & Suffix Products
-- Kadane's Algorithm
-- Hashing Techniques
-- In-place Array Manipulation
-- Merging Sorted Arrays
-- Hash Maps
-- Set Operations
-- Dutch National Flag Algorithm
-- Geometry & Triangle Validation
-- Coordinate Compression (Rank Transformation)
-- Three Sum Pattern
+- Mathematical Array Problems
+- Greedy Approach on Arrays
 
 ---
 
 ## ✅ Solved Problems
 
-| # | Problem | Difficulty |
-|---|---------|------------|
+| LeetCode # | Problem | Difficulty |
+|-----------:|---------|------------|
 | 1 | Two Sum | 🟢 Easy |
 | 15 | 3Sum | 🟡 Medium |
 | 27 | Remove Element | 🟢 Easy |
@@ -53,26 +42,45 @@ Arrays are one of the most fundamental data structures and form the basis for un
 | 238 | Product of Array Except Self | 🟡 Medium |
 | 268 | Missing Number | 🟢 Easy |
 | 283 | Move Zeroes | 🟢 Easy |
+| 349 | Intersection of Two Arrays | 🟢 Easy |
 | 350 | Intersection of Two Arrays II | 🟢 Easy |
 | 611 | Valid Triangle Number | 🟡 Medium |
+| 628 | Maximum Product of Three Numbers | 🟢 Easy |
 | 766 | Toeplitz Matrix | 🟢 Easy |
 | 867 | Transpose Matrix | 🟢 Easy |
+| 1260 | Shift 2D Grid | 🟢 Easy |
 | 1331 | Rank Transform of an Array | 🟢 Easy |
+| 1464 | Maximum Product of Two Elements in an Array | 🟢 Easy |
+| 1502 | Can Make Arithmetic Progression From Sequence | 🟢 Easy |
+| 3499 | Maximize Active Section with Trade I | 🟡 Medium |
+| 3501 | Maximize Active Section with Trade II | 🟡 Medium |
+| 3513 | Number of Unique XOR Triplets I | 🟡 Medium |
+| 3514 | Number of Unique XOR Triplets II | 🟡 Medium |
+| 3536 | Maximum Product of Two Digits | 🟢 Easy |
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Strengthen array manipulation skills
-- Improve problem-solving techniques
-- Learn optimized approaches
-- Build a strong DSA foundation
-- Understand Prefix and Suffix Array concepts
-- Master common interview patterns using arrays
-- Apply HashMap and Two Pointer techniques effectively
-- Improve matrix traversal and manipulation skills
-- Solve in-place array transformation problems
-- Recognize common sorting and two-pointer patterns
+- Master array manipulation techniques
+- Improve problem-solving using optimized approaches
+- Understand sorting and searching patterns
+- Learn two-pointer and sliding window techniques
+- Practice matrix-based problems
+- Build strong interview preparation foundations
+
+---
+
+## 💡 Key Concepts
+
+- Two Pointer Approach
+- Kadane's Algorithm
+- Prefix/Suffix Product
+- Sorting Techniques
+- HashMap & HashSet Usage
+- Matrix Traversal
+- In-place Array Modification
+- Greedy Optimization
 
 ---
 
@@ -84,18 +92,18 @@ Java ☕
 
 ## 📈 Progress
 
-- **Problems Solved:** **21**
+- **Problems Solved:** **31**
 
-- 🟢 Easy: **12**
-- 🟡 Medium: **9**
+- 🟢 Easy: **17**
+- 🟡 Medium: **14**
 - 🔴 Hard: **0**
 
 ---
 
 ## 🚀 Next Goal
 
-Continue solving array problems to strengthen problem-solving skills, recognize common patterns, and master coding interview questions.
+Continue solving array problems to master advanced patterns like sliding window, binary search, prefix techniques, and interview-level optimization strategies.
 
 ---
 
-⭐ **Consistency beats intensity. Every solved problem is a step closer to mastering Data Structures & Algorithms.**
+⭐ **Arrays are the foundation of problem solving—strong array skills build strong algorithmic thinking.**
