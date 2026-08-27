@@ -25,114 +25,95 @@
  */
 
 class Solution {
+    class Node {
+        char left, right;
+        int prefix, suffix, best, len;
 
-    private int[] prefix;
-    private int[] suffix;
-    private int[] longest;
-    private char[] leftChar;
-    private char[] rightChar;
+        Node(char c) {
+            left = right = c;
+            prefix = suffix = best = len = 1;
+        }
 
-    public int[] longestRepeating(String s, String queryCharacters, int[] queryIndices) {
+        Node() {}
+    }
 
+    Node[] tree;
+    char[] arr;
+
+    Node merge(Node a, Node b) {
+        Node res = new Node();
+        res.len = a.len + b.len;
+        res.left = a.left;
+        res.right = b.right;
+
+        res.prefix = a.prefix;
+        res.suffix = b.suffix;
+        res.best = Math.max(a.best, b.best);
+
+        if (a.right == b.left) {
+            if (a.prefix == a.len)
+                res.prefix = a.len + b.prefix;
+
+            if (b.suffix == b.len)
+                res.suffix = b.len + a.suffix;
+
+            res.best = Math.max(res.best, a.suffix + b.prefix);
+        }
+
+        return res;
+    }
+
+    void build(int node, int l, int r) {
+        if (l == r) {
+            tree[node] = new Node(arr[l]);
+            return;
+        }
+
+        int mid = (l + r) / 2;
+        build(node * 2, l, mid);
+        build(node * 2 + 1, mid + 1, r);
+
+        tree[node] = merge(tree[node * 2], tree[node * 2 + 1]);
+    }
+
+    void update(int node, int l, int r, int idx, char c) {
+        if (l == r) {
+            tree[node] = new Node(c);
+            return;
+        }
+
+        int mid = (l + r) / 2;
+
+        if (idx <= mid)
+            update(node * 2, l, mid, idx, c);
+        else
+            update(node * 2 + 1, mid + 1, r, idx, c);
+
+        tree[node] = merge(tree[node * 2], tree[node * 2 + 1]);
+    }
+
+    public int[] longestRepeating(String s, String queryCharacters,
+                                  int[] queryIndices) {
         int n = s.length();
+        int k = queryIndices.length;
 
-        prefix = new int[4 * n];
-        suffix = new int[4 * n];
-        longest = new int[4 * n];
-        leftChar = new char[4 * n];
-        rightChar = new char[4 * n];
+        arr = s.toCharArray();
+        tree = new Node[4 * n];
 
-        char[] chars = s.toCharArray();
+        build(1, 0, n - 1);
 
-        build(1, 0, n - 1, chars);
+        int[] ans = new int[k];
 
-        int[] answer = new int[queryCharacters.length()];
+        for (int i = 0; i < k; i++) {
+            arr[queryIndices[i]] = queryCharacters.charAt(i);
 
-        for (int i = 0; i < queryCharacters.length(); i++) {
+            update(1, 0, n - 1,
+                   queryIndices[i],
+                   queryCharacters.charAt(i));
 
-            int index = queryIndices[i];
-            chars[index] = queryCharacters.charAt(i);
-
-            update(1, 0, n - 1, index, chars[index]);
-
-            answer[i] = longest[1];
+            ans[i] = tree[1].best;
         }
 
-        return answer;
-    }
-
-    private void build(int node, int start, int end, char[] chars) {
-
-        if (start == end) {
-            prefix[node] = 1;
-            suffix[node] = 1;
-            longest[node] = 1;
-            leftChar[node] = chars[start];
-            rightChar[node] = chars[start];
-            return;
-        }
-
-        int mid = start + (end - start) / 2;
-
-        build(node * 2, start, mid, chars);
-        build(node * 2 + 1, mid + 1, end, chars);
-
-        merge(node);
-    }
-
-    private void update(int node, int start, int end, int index, char value) {
-
-        if (start == end) {
-            prefix[node] = 1;
-            suffix[node] = 1;
-            longest[node] = 1;
-            leftChar[node] = value;
-            rightChar[node] = value;
-            return;
-        }
-
-        int mid = start + (end - start) / 2;
-
-        if (index <= mid) {
-            update(node * 2, start, mid, index, value);
-        } else {
-            update(node * 2 + 1, mid + 1, end, index, value);
-        }
-
-        merge(node);
-    }
-
-    private void merge(int node) {
-
-        int left = node * 2;
-        int right = node * 2 + 1;
-
-        leftChar[node] = leftChar[left];
-        rightChar[node] = rightChar[right];
-
-        prefix[node] = prefix[left];
-        suffix[node] = suffix[right];
-
-        longest[node] = Math.max(longest[left], longest[right]);
-
-        if (rightChar[left] == leftChar[right]) {
-
-            longest[node] = Math.max(
-                longest[node],
-                suffix[left] + prefix[right]
-            );
-
-            if (prefix[left] == getLength(left)) {
-                prefix[node] = getLength(left) + prefix[right];
-            }
-
-            if (suffix[right] == getLength(right)) {
-                suffix[node] = getLength(right) + suffix[left];
-            }
-        }
-    }
-
-    private int getLength(int node) {
-        return prefix[node] + suffix[node] - 1;
+        return ans;
     }
 }
