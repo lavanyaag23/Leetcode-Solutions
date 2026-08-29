@@ -2,7 +2,7 @@
 
 This folder contains solutions to **LeetCode Greedy Algorithm problems** implemented in **Java**.
 
-Greedy algorithms solve optimization problems by making the **best possible choice at each step** with the aim of achieving the optimal overall solution. These techniques are commonly used in competitive programming and coding interviews.
+Greedy algorithms solve optimization problems by making the **best possible choice at each step** with the aim of achieving an optimal overall solution. These techniques are commonly used in competitive programming and coding interviews.
 
 ---
 
@@ -14,18 +14,21 @@ Greedy algorithms solve optimization problems by making the **best possible choi
 * Jump Game Pattern
 * Sorting + Greedy Approach
 * Resource Allocation
-* Decision Making Strategies
+* Lexicographical Optimization
 * Frequency-Based Greedy Techniques
+* Subsequence Selection
 
 ---
 
 ## ✅ Solved Problems
 
-| LeetCode # | Problem                                 | Difficulty |
-| ---------: | --------------------------------------- | ---------- |
-|         55 | Jump Game                               | 🟡 Medium  |
-|        455 | Assign Cookies                          | 🟢 Easy    |
-|       3014 | Minimum Number of Pushes to Type Word I | 🟢 Easy    |
+| **LeetCode #** | **Problem**                                        | **Difficulty** |
+| -------------: | -------------------------------------------------- | -------------- |
+|             55 | Jump Game                                          | 🟡 Medium      |
+|            455 | Assign Cookies                                     | 🟢 Easy        |
+|           2099 | Find Subsequence of Length K With the Largest Sum  | 🟡 Medium      |
+|           3014 | Minimum Number of Pushes to Type Word I            | 🟢 Easy        |
+|           3302 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium      |
 
 ---
 
@@ -37,6 +40,7 @@ Greedy algorithms solve optimization problems by making the **best possible choi
 * Improve array traversal and problem-solving skills
 * Understand the difference between Greedy and Dynamic Programming
 * Apply sorting and frequency-based approaches effectively
+* Develop optimization and selection strategies
 
 ---
 
@@ -50,6 +54,7 @@ Greedy algorithms solve optimization problems by making the **best possible choi
 * Single Pass Traversal
 * Two Pointer Technique
 * Early Termination
+* Lexicographical Optimization
 
 ---
 
@@ -61,11 +66,11 @@ Java ☕
 
 ## 📈 Progress
 
-* **Problems Solved:** **3**
+* **Problems Solved:** **5**
 
 * 🟢 Easy: **2**
 
-* 🟡 Medium: **1**
+* 🟡 Medium: **3**
 
 * 🔴 Hard: **0**
 
