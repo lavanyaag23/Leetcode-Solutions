@@ -1,8 +1,8 @@
 # ➗ Math
 
-This folder contains solutions to LeetCode problems related to **Mathematics** implemented in Java.
+This folder contains solutions to **LeetCode Math problems** implemented in **Java**.
 
-Math problems focus on number theory, arithmetic operations, digit manipulation, modular arithmetic, GCD/LCM, mathematical simulation, and mathematical reasoning to build efficient solutions.
+Math problems strengthen number theory, arithmetic reasoning, digit manipulation, divisibility, GCD/LCM, modular arithmetic, mathematical simulation, and algorithmic optimization.
 
 ---
 
@@ -17,42 +17,51 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 * Greatest Common Divisor (GCD)
 * Euclidean Algorithm
 * Modular Arithmetic
-* Powers & Exponents
+* Divisibility
 * Number Properties
 * Game Theory
-* Divisibility & Number Properties
+* Mathematical Optimization
+* Digit Product & Digit Sum
+* Pair Formation & GCD
+* Large Number Arithmetic
 
 ---
 
 ## ✅ Solved Problems
 
-| **LeetCode #** | **Problem**                                              | **Difficulty** |
-| -------------: | -------------------------------------------------------- | -------------- |
-|             69 | Sqrt(x)                                                  | 🟢 Easy        |
-|            202 | Happy Number                                             | 🟢 Easy        |
-|           1291 | Sequential Digits                                        | 🟡 Medium      |
-|           1979 | Find Greatest Common Divisor of Array                    | 🟢 Easy        |
-|           1927 | Sum Game                                                 | 🟡 Medium      |
-|           2029 | Stone Game IX                                            | 🟡 Medium      |
-|           3116 | Kth Smallest Amount With Single Denomination Combination | 🟡 Medium      |
-|           3348 | Smallest Divisible Digit Product II                      | 🔴 Hard        |
-|           3536 | Maximum Product of Two Digits                            | 🟢 Easy        |
-|           3622 | Check Divisibility by Digit Sum and Product              | 🟢 Easy        |
-|           3658 | GCD of Odd and Even Sums                                 | 🟢 Easy        |
-|           3718 | Smallest Missing Multiple of K                           | 🟢 Easy        |
+| LeetCode # | Problem                                                  | Difficulty |
+| ---------: | -------------------------------------------------------- | :--------: |
+|         69 | Sqrt(x)                                                  |   🟢 Easy  |
+|        202 | Happy Number                                             |   🟢 Easy  |
+|       1291 | Sequential Digits                                        |  🟡 Medium |
+|       1979 | Find Greatest Common Divisor of Array                    |   🟢 Easy  |
+|       1927 | Sum Game                                                 |  🟡 Medium |
+|       2029 | Stone Game IX                                            |  🟡 Medium |
+|       3116 | Kth Smallest Amount With Single Denomination Combination |  🟡 Medium |
+|       3345 | Smallest Divisible Digit Product I                       |   🟢 Easy  |
+|       3348 | Smallest Divisible Digit Product II                      |   🔴 Hard  |
+|       3536 | Maximum Product of Two Digits                            |   🟢 Easy  |
+|       3622 | Check Divisibility by Digit Sum and Product              |   🟢 Easy  |
+|       3658 | GCD of Odd and Even Sums                                 |   🟢 Easy  |
+|       3718 | Smallest Missing Multiple of K                           |   🟢 Easy  |
+|       3756 | Concatenate Non-Zero Digits and Multiply by Sum II       |   🔴 Hard  |
+|       3867 | Sum of GCD of Formed Pairs                               |  🟡 Medium |
 
 ---
 
 ## 🎯 Learning Goals
 
-* Improve mathematical reasoning
-* Master number manipulation techniques
+* Improve mathematical reasoning and problem-solving
+* Master number and digit manipulation techniques
 * Learn efficient mathematical algorithms
 * Understand the Euclidean Algorithm for GCD
-* Apply binary search in mathematical problems
-* Practice digit-based problem solving
-* Understand modular arithmetic and divisibility
-* Build strong problem-solving skills using mathematical concepts
+* Apply binary search to mathematical problems
+* Practice divisibility and modular arithmetic
+* Strengthen number theory fundamentals
+* Solve digit-based optimization problems
+* Understand mathematical simulation and game theory
+* Handle large-number calculations efficiently
+* Improve algorithmic thinking through mathematical patterns
 
 ---
 
@@ -60,34 +69,39 @@ Math problems focus on number theory, arithmetic operations, digit manipulation,
 
 * GCD & Euclidean Algorithm
 * Digit Manipulation
+* Digit Sum & Digit Product
 * Modular Arithmetic
 * Binary Search
 * Mathematical Simulation
 * Divisibility
 * Number Properties
 * Game Theory
-* Optimization
+* Number Theory
+* Mathematical Optimization
+* Pair Formation
+* GCD-Based Algorithms
+* Large Number Arithmetic
 
 ---
 
 ## 💻 Language
 
-Java ☕
+**Java ☕**
 
 ---
 
 ## 📈 Progress
 
-* **Problems Solved:** **12**
-* 🟢 Easy: **7**
+* **Problems Solved:** **15**
+* 🟢 Easy: **9**
 * 🟡 Medium: **4**
-* 🔴 Hard: **1**
+* 🔴 Hard: **2**
 
 ---
 
 ## 🚀 Next Goal
 
-Continue solving Math problems to strengthen numerical reasoning, mathematical optimization, number theory, and algorithmic thinking.
+Continue solving more Math problems to strengthen **number theory, digit manipulation, GCD/LCM, modular arithmetic, mathematical optimization, and algorithmic reasoning**.
 
 ---
 
