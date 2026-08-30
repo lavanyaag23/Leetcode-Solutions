@@ -2,7 +2,7 @@
 
 This folder contains solutions to **LeetCode String problems** implemented in **Java**.
 
-String problems are essential for coding interviews and competitive programming. They help build a strong understanding of character processing, hashing, pattern matching, sliding window techniques, two pointers, and lexicographical manipulation.
+String problems are essential for coding interviews and competitive programming. They build a strong understanding of character processing, hashing, pattern matching, sliding window techniques, two pointers, and lexicographical manipulation.
 
 ---
 
@@ -29,26 +29,27 @@ String problems are essential for coding interviews and competitive programming.
 
 ## ✅ Solved Problems
 
-| **LeetCode #** | **Problem**                                                            | **Difficulty** |
-| -------------: | ---------------------------------------------------------------------- | :------------: |
-|              3 | Longest Substring Without Repeating Characters                         |    🟡 Medium   |
-|             14 | Longest Common Prefix                                                  |     🟢 Easy    |
-|             28 | Find the Index of the First Occurrence in a String                     |     🟢 Easy    |
-|             58 | Length of Last Word                                                    |     🟢 Easy    |
-|            125 | Valid Palindrome                                                       |     🟢 Easy    |
-|            205 | Isomorphic Strings                                                     |     🟢 Easy    |
-|            242 | Valid Anagram                                                          |     🟢 Easy    |
-|            344 | Reverse String                                                         |     🟢 Easy    |
-|            443 | String Compression                                                     |    🟡 Medium   |
-|            806 | Number of Lines To Write String                                        |     🟢 Easy    |
-|            819 | Most Common Word                                                       |     🟢 Easy    |
-|           2213 | Longest Substring of One Repeating Character                           |     🔴 Hard    |
-|           2904 | Shortest and Lexicographically Smallest Beautiful String               |    🟡 Medium   |
-|           3090 | Maximum Length Substring With Two Occurrences                          |     🟢 Easy    |
-|           3228 | Maximize Active Sections After Trade I                                 |    🟡 Medium   |
-|           3517 | Smallest Palindromic Rearrangement I                                   |    🟡 Medium   |
-|           3720 | Lexicographically Smallest Permutation Greater Than Target             |    🟡 Medium   |
-|           3734 | Lexicographically Smallest Palindromic Permutation Greater Than Target |     🔴 Hard    |
+| LeetCode # | Problem                                                                | Difficulty |
+| ---------: | ---------------------------------------------------------------------- | :--------: |
+|          3 | Longest Substring Without Repeating Characters                         |  🟡 Medium |
+|         14 | Longest Common Prefix                                                  |   🟢 Easy  |
+|         28 | Find the Index of the First Occurrence in a String                     |   🟢 Easy  |
+|         58 | Length of Last Word                                                    |   🟢 Easy  |
+|        125 | Valid Palindrome                                                       |   🟢 Easy  |
+|        205 | Isomorphic Strings                                                     |   🟢 Easy  |
+|        242 | Valid Anagram                                                          |   🟢 Easy  |
+|        344 | Reverse String                                                         |   🟢 Easy  |
+|        443 | String Compression                                                     |  🟡 Medium |
+|        806 | Number of Lines To Write String                                        |   🟢 Easy  |
+|        819 | Most Common Word                                                       |   🟢 Easy  |
+|       2213 | Longest Substring of One Repeating Character                           |   🔴 Hard  |
+|       2904 | Shortest and Lexicographically Smallest Beautiful String               |  🟡 Medium |
+|       3090 | Maximum Length Substring With Two Occurrences                          |   🟢 Easy  |
+|       3228 | Maximize Active Sections After Trade I                                 |  🟡 Medium |
+|       3517 | Smallest Palindromic Rearrangement I                                   |  🟡 Medium |
+|       3518 | Smallest Palindromic Rearrangement II                                  |  🟡 Medium |
+|       3720 | Lexicographically Smallest Permutation Greater Than Target             |  🟡 Medium |
+|       3734 | Lexicographically Smallest Palindromic Permutation Greater Than Target |   🔴 Hard  |
 
 ---
 
@@ -86,14 +87,14 @@ String problems are essential for coding interviews and competitive programming.
 
 ## 💻 Language
 
-Java ☕
+**Java ☕**
 
 ---
 
 ## 📈 Progress
 
-* **Problems Solved:** **18**
-* 🟢 Easy: **10**
+* **Problems Solved:** **19**
+* 🟢 Easy: **11**
 * 🟡 Medium: **6**
 * 🔴 Hard: **2**
 
@@ -101,7 +102,15 @@ Java ☕
 
 ## 🚀 Next Goal
 
-Continue solving more String problems to strengthen sliding window, hashing, two-pointer, lexicographical, permutation, and advanced string-processing techniques.
+Continue solving more String problems to strengthen:
+
+* Sliding Window
+* Hashing
+* Two Pointer
+* Lexicographical Ordering
+* Permutations
+* Palindrome Techniques
+* Advanced String Processing
 
 ---
 
