@@ -26,20 +26,21 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 | Topic               | Problems |
 | ------------------- | -------: |
-| Arrays              |   **38** |
-| Strings             |   **18** |
+| Arrays              |   **46** |
+| Strings             |   **19** |
 | Linked List         |   **14** |
-| Stack               |   **10** |
+| Stack               |   **11** |
 | Queue               |    **6** |
 | Trees               |   **24** |
-| Graphs              |   **10** |
+| Heap                |    **2** |
+| Graphs              |   **14** |
 | Dynamic Programming |   **12** |
-| Greedy              |    **6** |
+| Greedy              |    **5** |
 | Bit Manipulation    |    **2** |
-| Math                |   **12** |
+| Math                |   **15** |
 | Binary Search       |    **2** |
 | Contests            |    **2** |
-| **Total**           |  **156** |
+| **Total**           |  **174** |
 
 ---
 
