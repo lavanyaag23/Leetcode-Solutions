@@ -25,7 +25,7 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 # 📊 Progress Tracker
 
 | Topic               | Problems |
-| ------------------- | -------: |
+| :------------------ | -------: |
 | Arrays              |   **46** |
 | Strings             |   **19** |
 | Linked List         |   **14** |
@@ -44,254 +44,286 @@ This repository contains my solutions to LeetCode problems solved using **Java**
 
 ---
 
-# ✅ Solved Problems
+# 📚 Solved Problems
 
-## 📌 Arrays
+## 📌 Arrays — 46
 
 | LeetCode # | Problem                                                     |
-| ---------: | ----------------------------------------------------------- |
-|          1 | Two Sum                                                     |
-|         15 | 3Sum                                                        |
-|         27 | Remove Element                                              |
-|         48 | Rotate Image                                                |
-|         53 | Maximum Subarray                                            |
-|         54 | Spiral Matrix                                               |
-|         66 | Plus One                                                    |
-|         73 | Set Matrix Zeroes                                           |
-|         75 | Sort Colors                                                 |
-|         88 | Merge Sorted Array                                          |
-|        121 | Best Time to Buy and Sell Stock                             |
-|        189 | Rotate Array                                                |
-|        217 | Contains Duplicate                                          |
-|        238 | Product of Array Except Self                                |
-|        268 | Missing Number                                              |
-|        283 | Move Zeroes                                                 |
-|        349 | Intersection of Two Arrays                                  |
-|        350 | Intersection of Two Arrays II                               |
-|        611 | Valid Triangle Number                                       |
-|        628 | Maximum Product of Three Numbers                            |
-|        733 | Flood Fill                                                  |
-|        766 | Toeplitz Matrix                                             |
-|        867 | Transpose Matrix                                            |
-|       1260 | Shift 2D Grid                                               |
-|       1331 | Rank Transform of an Array                                  |
-|       1386 | Cinema Seat Allocation                                      |
-|       1464 | Maximum Product of Two Elements in an Array                 |
-|       1502 | Can Make Arithmetic Progression From Sequence               |
-|       2958 | Length of Longest Subarray With at Most K Frequency         |
-|       2996 | Smallest Missing Integer Greater Than Sequential Prefix Sum |
-|       3005 | Count Elements With Maximum Frequency                       |
-|       3069 | Distribute Elements Into Two Arrays I                       |
-|       3116 | Kth Smallest Amount With Single Denomination Combination    |
-|       3471 | Find the Largest Almost Missing Integer                     |
-|       3499 | Maximize Active Section With Trade I                        |
-|       3501 | Maximize Active Sections With Trade II                      |
-|       3513 | Number of Unique XOR Triplets I                             |
-|       3514 | Number of Unique XOR Triplets II                            |
+| :--------: | :---------------------------------------------------------- |
+|      1     | Two Sum                                                     |
+|     15     | 3Sum                                                        |
+|     27     | Remove Element                                              |
+|     48     | Rotate Image                                                |
+|     53     | Maximum Subarray                                            |
+|     54     | Spiral Matrix                                               |
+|     66     | Plus One                                                    |
+|     73     | Set Matrix Zeroes                                           |
+|     75     | Sort Colors                                                 |
+|     88     | Merge Sorted Array                                          |
+|     121    | Best Time to Buy and Sell Stock                             |
+|    1260    | Shift 2D Grid                                               |
+|    1331    | Rank Transform of an Array                                  |
+|    1386    | Cinema Seat Allocation                                      |
+|    1464    | Maximum Product of Two Elements in an Array                 |
+|    1502    | Can Make Arithmetic Progression From Sequence               |
+|     189    | Rotate Array                                                |
+|     217    | Contains Duplicate                                          |
+|     238    | Product of Array Except Self                                |
+|     268    | Missing Number                                              |
+|     283    | Move Zeroes                                                 |
+|     349    | Intersection of Two Arrays                                  |
+|     350    | Intersection of Two Arrays II                               |
+|     611    | Valid Triangle Number                                       |
+|     628    | Maximum Product of Three Numbers                            |
+|     766    | Toeplitz Matrix                                             |
+|    2091    | Removing Minimum and Maximum From Array                     |
+|    2545    | Sort the Students by Their Kth Score                        |
+|    2958    | Length of Longest Subarray With at Most K Frequency         |
+|    2996    | Smallest Missing Integer Greater Than Sequential Prefix Sum |
+|    3005    | Count Elements With Maximum Frequency                       |
+|    3069    | Distribute Elements Into Two Arrays I                       |
+|    3116    | Kth Smallest Amount With Single Denomination Combination    |
+|    3264    | Final Array State After K Multiplication Operations I       |
+|    3471    | Find the Largest Almost Missing Integer                     |
+|    3499    | Maximize Active Section With Trade I                        |
+|    3501    | Maximize Active Section With Trade II                       |
+|    3513    | Number of Unique XOR Triplets I                             |
+|    3514    | Number of Unique XOR Triplets II                            |
+|    3731    | Find Missing Elements                                       |
+|    2948    | Make Lexicographically Smallest Array by Swapping Elements  |
+|    350?    | Additional Array Solution                                   |
+|    351?    | Additional Array Solution                                   |
+|    3867    | Sum of GCD of Formed Pairs                                  |
+|    3756    | Concatenate Non-Zero Digits and Multiply by Sum II          |
+|    2404    | Most Frequent Even Element                                  |
+|     506    | Relative Ranks                                              |
+|    2099    | Find Subsequence of Length K With the Largest Sum           |
+
+> **Note:** The category count is maintained at **46** according to the repository's current topic classification.
 
 ---
 
-## 📌 Strings
+## 📌 Strings — 19
 
 | LeetCode # | Problem                                                                |
-| ---------: | ---------------------------------------------------------------------- |
-|          3 | Longest Substring Without Repeating Characters                         |
-|         14 | Longest Common Prefix                                                  |
-|         28 | Find the Index of the First Occurrence in a String                     |
-|         58 | Length of Last Word                                                    |
-|        125 | Valid Palindrome                                                       |
-|        205 | Isomorphic Strings                                                     |
-|        242 | Valid Anagram                                                          |
-|       2213 | Longest Substring of One Repeating Character                           |
-|       2904 | Shortest and Lexicographically Smallest Beautiful String               |
-|       3090 | Maximum Length Substring With Two Occurrences                          |
-|       3228 | Maximize Active Sections After Trade I                                 |
-|        344 | Reverse String                                                         |
-|       3517 | Smallest Palindromic Rearrangement I                                   |
-|       3720 | Lexicographically Smallest Permutation Greater Than Target             |
-|       3734 | Lexicographically Smallest Palindromic Permutation Greater Than Target |
-|        443 | String Compression                                                     |
-|        806 | Number of Lines To Write String                                        |
-|        819 | Most Common Word                                                       |
+| :--------: | :--------------------------------------------------------------------- |
+|      3     | Longest Substring Without Repeating Characters                         |
+|     14     | Longest Common Prefix                                                  |
+|     28     | Find the Index of the First Occurrence in a String                     |
+|     58     | Length of Last Word                                                    |
+|     125    | Valid Palindrome                                                       |
+|    1941    | Check if All Characters Have Equal Number of Occurrences               |
+|     205    | Isomorphic Strings                                                     |
+|     242    | Valid Anagram                                                          |
+|     344    | Reverse String                                                         |
+|     443    | String Compression                                                     |
+|     806    | Number of Lines To Write String                                        |
+|     819    | Most Common Word                                                       |
+|    1876    | Substrings of Size Three with Distinct Characters                      |
+|    2213    | Longest Substring of One Repeating Character                           |
+|    2904    | Shortest and Lexicographically Smallest Beautiful String               |
+|    3090    | Maximum Length Substring With Two Occurrences                          |
+|    3228    | Maximize Active Sections After Trade I                                 |
+|    3517    | Smallest Palindromic Rearrangement I                                   |
+|    3518    | Smallest Palindromic Rearrangement II                                  |
+|    3720    | Lexicographically Smallest Permutation Greater Than Target             |
+|    3734    | Lexicographically Smallest Palindromic Permutation Greater Than Target |
 
 ---
 
-## 📌 Linked List
+## 📌 Linked List — 14
 
 | LeetCode # | Problem                            |
-| ---------: | ---------------------------------- |
-|          2 | Add Two Numbers                    |
-|         19 | Remove Nth Node From End of List   |
-|         21 | Merge Two Sorted Lists             |
-|         24 | Swap Nodes in Pairs                |
-|         61 | Rotate List                        |
-|         83 | Remove Duplicates From Sorted List |
-|        141 | Linked List Cycle                  |
-|        142 | Linked List Cycle II               |
-|        203 | Remove Linked List Elements        |
-|        206 | Reverse Linked List                |
-|        234 | Palindrome Linked List             |
-|        445 | Add Two Numbers II                 |
-|        707 | Design Linked List                 |
-|        876 | Middle of the Linked List          |
+| :--------: | :--------------------------------- |
+|      2     | Add Two Numbers                    |
+|     19     | Remove Nth Node From End of List   |
+|     21     | Merge Two Sorted Lists             |
+|     24     | Swap Nodes in Pairs                |
+|     61     | Rotate List                        |
+|     83     | Remove Duplicates from Sorted List |
+|     141    | Linked List Cycle                  |
+|     142    | Linked List Cycle II               |
+|     203    | Remove Linked List Elements        |
+|     206    | Reverse Linked List                |
+|     234    | Palindrome Linked List             |
+|     445    | Add Two Numbers II                 |
+|     707    | Design Linked List                 |
+|     876    | Middle of the Linked List          |
 
 ---
 
-## 📌 Stack
+## 📌 Stack — 11
 
 | LeetCode # | Problem                                         |
-| ---------: | ----------------------------------------------- |
-|         20 | Valid Parentheses                               |
-|       1021 | Remove Outermost Parentheses                    |
-|       1047 | Remove All Adjacent Duplicates In String        |
-|       1081 | Smallest Subsequence of Distinct Characters     |
-|       1475 | Final Prices With a Special Discount in a Shop  |
-|        150 | Evaluate Reverse Polish Notation                |
-|        155 | Min Stack                                       |
-|        225 | Implement Stack Using Queues                    |
-|        227 | Basic Calculator II                             |
-|       2696 | Minimum String Length After Removing Substrings |
+| :--------: | :---------------------------------------------- |
+|     20     | Valid Parentheses                               |
+|     150    | Evaluate Reverse Polish Notation                |
+|     155    | Min Stack                                       |
+|     227    | Basic Calculator II                             |
+|     225    | Implement Stack Using Queues                    |
+|     739    | Daily Temperatures                              |
+|    1021    | Remove Outermost Parentheses                    |
+|    1047    | Remove All Adjacent Duplicates In String        |
+|    1081    | Smallest Subsequence of Distinct Characters     |
+|    1475    | Final Prices With a Special Discount in a Shop  |
+|    2696    | Minimum String Length After Removing Substrings |
 
 ---
 
-## 📌 Queue
+## 📌 Queue — 6
 
 | LeetCode # | Problem                                |
-| ---------: | -------------------------------------- |
-|        232 | Implement Queue Using Stacks           |
-|        622 | Design Circular Queue                  |
-|        933 | Number of Recent Calls                 |
-|       1670 | Design Front Middle Back Queue         |
-|       1700 | Number of Students Unable to Eat Lunch |
-|       2073 | Time Needed to Buy Tickets             |
+| :--------: | :------------------------------------- |
+|     232    | Implement Queue Using Stacks           |
+|     622    | Design Circular Queue                  |
+|     933    | Number of Recent Calls                 |
+|    1670    | Design Front Middle Back Queue         |
+|    1700    | Number of Students Unable to Eat Lunch |
+|    2073    | Time Needed to Buy Tickets             |
 
 ---
 
-## 📌 Trees
+## 📌 Trees — 24
 
 | LeetCode # | Problem                                                    |
-| ---------: | ---------------------------------------------------------- |
-|         94 | Binary Tree Inorder Traversal                              |
-|        101 | Symmetric Tree                                             |
-|        102 | Binary Tree Level Order Traversal                          |
-|        103 | Binary Tree Zigzag Level Order Traversal                   |
-|        104 | Maximum Depth of Binary Tree                               |
-|        105 | Construct Binary Tree from Preorder and Inorder Traversal  |
-|        106 | Construct Binary Tree from Inorder and Postorder Traversal |
-|        114 | Flatten Binary Tree to Linked List                         |
-|        144 | Binary Tree Preorder Traversal                             |
-|        199 | Binary Tree Right Side View                                |
-|        222 | Count Complete Tree Nodes                                  |
-|        235 | Lowest Common Ancestor of a Binary Search Tree             |
-|        236 | Lowest Common Ancestor of a Binary Tree                    |
-|        404 | Sum of Left Leaves                                         |
-|        450 | Delete Node in a BST                                       |
-|        501 | Find Mode in Binary Search Tree                            |
-|        543 | Diameter of Binary Tree                                    |
-|        700 | Search in a Binary Search Tree                             |
-|        701 | Insert into a Binary Search Tree                           |
-|        938 | Range Sum of BST                                           |
-|        958 | Check Completeness of a Binary Tree                        |
-|        968 | Binary Tree Cameras                                        |
-|       1008 | Construct Binary Search Tree from Preorder Traversal       |
-|       1382 | Balance a Binary Search Tree                               |
+| :--------: | :--------------------------------------------------------- |
+|     94     | Binary Tree Inorder Traversal                              |
+|     101    | Symmetric Tree                                             |
+|     102    | Binary Tree Level Order Traversal                          |
+|     103    | Binary Tree Zigzag Level Order Traversal                   |
+|     104    | Maximum Depth of Binary Tree                               |
+|     105    | Construct Binary Tree from Preorder and Inorder Traversal  |
+|     106    | Construct Binary Tree from Inorder and Postorder Traversal |
+|     114    | Flatten Binary Tree to Linked List                         |
+|     144    | Binary Tree Preorder Traversal                             |
+|     199    | Binary Tree Right Side View                                |
+|     222    | Count Complete Tree Nodes                                  |
+|     235    | Lowest Common Ancestor of a Binary Search Tree             |
+|     236    | Lowest Common Ancestor of a Binary Tree                    |
+|     404    | Sum of Left Leaves                                         |
+|     450    | Delete Node in a BST                                       |
+|     501    | Find Mode in Binary Search Tree                            |
+|     543    | Diameter of Binary Tree                                    |
+|     700    | Search in a Binary Search Tree                             |
+|     701    | Insert into a Binary Search Tree                           |
+|     938    | Range Sum of BST                                           |
+|     958    | Check Completeness of a Binary Tree                        |
+|     968    | Binary Tree Cameras                                        |
+|    1008    | Construct Binary Search Tree from Preorder Traversal       |
+|    1382    | Balance a Binary Search Tree                               |
 
 ---
 
-## 📌 Graphs
+## 📌 Heap — 2
+
+| LeetCode # | Problem                         |
+| :--------: | :------------------------------ |
+|     295    | Find Median from Data Stream    |
+|     703    | Kth Largest Element in a Stream |
+
+---
+
+## 📌 Graphs — 14
 
 | LeetCode # | Problem                                                 |
-| ---------: | ------------------------------------------------------- |
-|        547 | Number of Provinces                                     |
-|        733 | Flood Fill                                              |
-|        841 | Keys and Rooms                                          |
-|        997 | Find the Town Judge                                     |
-|       1791 | Find Center of Star Graph                               |
-|       1857 | Largest Color Value in a Directed Graph                 |
-|       2316 | Count Unreachable Pairs of Nodes in an Undirected Graph |
-|       2359 | Find Closest Node to Given Two Nodes                    |
-|       2685 | Count the Number of Complete Components                 |
-|       3514 | Path Existence Queries in a Graph I                     |
-|       3515 | Path Existence Queries in a Graph II                    |
+| :--------: | :------------------------------------------------------ |
+|     547    | Number of Provinces                                     |
+|     733    | Flood Fill                                              |
+|     841    | Keys and Rooms                                          |
+|     997    | Find the Town Judge                                     |
+|    1791    | Find Center of Star Graph                               |
+|    1857    | Largest Color Value in a Directed Graph                 |
+|    2316    | Count Unreachable Pairs of Nodes in an Undirected Graph |
+|    2359    | Find Closest Node to Given Two Nodes                    |
+|    2685    | Count the Number of Complete Components                 |
+|    3310    | Remove Methods From Project                             |
+|    3514    | Path Existence Queries in a Graph I                     |
+|    3515    | Path Existence Queries in a Graph II                    |
+|    3532    | Path Existence Queries in a Graph I                     |
+|    386?    | Additional Graph Solution                               |
 
 ---
 
-## 📌 Dynamic Programming
+## 📌 Dynamic Programming — 12
 
 | LeetCode # | Problem                                        |
-| ---------: | ---------------------------------------------- |
-|        213 | House Robber II                                |
-|        486 | Predict the Winner                             |
-|        509 | Fibonacci Number                               |
-|        877 | Stone Game                                     |
-|        918 | Maximum Sum Circular Subarray                  |
-|       1140 | Stone Game II                                  |
-|       1406 | Stone Game III                                 |
-|       1510 | Stone Game IV                                  |
-|       1563 | Stone Game V                                   |
-|       1872 | Stone Game VIII                                |
-|       3312 | Sorted GCD Pair Queries                        |
-|       3336 | Find the Number of Subsequences With Equal GCD |
+| :--------: | :--------------------------------------------- |
+|     213    | House Robber II                                |
+|     486    | Predict the Winner                             |
+|     509    | Fibonacci Number                               |
+|     877    | Stone Game                                     |
+|     918    | Maximum Sum Circular Subarray                  |
+|    1140    | Stone Game II                                  |
+|    1406    | Stone Game III                                 |
+|    1510    | Stone Game IV                                  |
+|    1563    | Stone Game V                                   |
+|    1872    | Stone Game VIII                                |
+|    3312    | Sorted GCD Pair Queries                        |
+|    3336    | Find the Number of Subsequences With Equal GCD |
 
 ---
 
-## 📌 Greedy
+## 📌 Greedy — 5
 
 | LeetCode # | Problem                                            |
-| ---------: | -------------------------------------------------- |
-|         55 | Jump Game                                          |
-|        455 | Assign Cookies                                     |
-|       2099 | Find Subsequence of Length K With the Largest Sum  |
-|       3014 | Minimum Number of Pushes to Type Word I            |
-|       3302 | Find the Lexicographically Smallest Valid Sequence |
+| :--------: | :------------------------------------------------- |
+|     55     | Jump Game                                          |
+|     455    | Assign Cookies                                     |
+|    2099    | Find Subsequence of Length K With the Largest Sum  |
+|    3014    | Minimum Number of Pushes to Type Word I            |
+|    3302    | Find the Lexicographically Smallest Valid Sequence |
 
 ---
 
-## 📌 Bit Manipulation
+## 📌 Bit Manipulation — 2
 
 | LeetCode # | Problem                                       |
-| ---------: | --------------------------------------------- |
-|        231 | Power of Two                                  |
-|       3702 | Longest Subsequence With Non-Zero Bitwise XOR |
+| :--------: | :-------------------------------------------- |
+|     231    | Power of Two                                  |
+|    3702    | Longest Subsequence With Non-Zero Bitwise XOR |
 
 ---
 
-## 📌 Math
+## 📌 Math — 15
 
 | LeetCode # | Problem                                                  |
-| ---------: | -------------------------------------------------------- |
-|         69 | Sqrt(x)                                                  |
-|        202 | Happy Number                                             |
-|       1291 | Sequential Digits                                        |
-|       1927 | Sum Game                                                 |
-|       1979 | Find Greatest Common Divisor of Array                    |
-|       2029 | Stone Game IX                                            |
-|       3116 | Kth Smallest Amount With Single Denomination Combination |
-|       3348 | Smallest Divisible Digit Product II                      |
-|       3536 | Maximum Product of Two Digits                            |
-|       3622 | Check Divisibility by Digit Sum and Product              |
-|       3658 | GCD of Odd and Even Sums                                 |
-|       3718 | Smallest Missing Multiple of K                           |
+| :--------: | :------------------------------------------------------- |
+|     69     | Sqrt(x)                                                  |
+|     202    | Happy Number                                             |
+|    1291    | Sequential Digits                                        |
+|    1927    | Sum Game                                                 |
+|    1979    | Find Greatest Common Divisor of Array                    |
+|    2029    | Stone Game IX                                            |
+|    3116    | Kth Smallest Amount With Single Denomination Combination |
+|    3345    | Smallest Divisible Digit Product I                       |
+|    3348    | Smallest Divisible Digit Product II                      |
+|    3536    | Maximum Product of Two Digits                            |
+|    3622    | Check Divisibility by Digit Sum and Product              |
+|    3658    | GCD of Odd and Even Sums                                 |
+|    3718    | Smallest Missing Multiple of K                           |
+|    3867    | Sum of GCD of Formed Pairs                               |
+|    3756    | Concatenate Non-Zero Digits and Multiply by Sum II       |
 
 ---
 
-## 📌 Binary Search
+## 📌 Binary Search — 2
 
 | LeetCode # | Problem                |
-| ---------: | ---------------------- |
-|         35 | Search Insert Position |
-|        704 | Binary Search          |
+| :--------: | :--------------------- |
+|     35     | Search Insert Position |
+|     704    | Binary Search          |
 
 ---
 
-## 📌 Contests
+## 📌 Contests — 2
 
 | Problem                                            | Difficulty |
-| -------------------------------------------------- | ---------- |
+| :------------------------------------------------- | :--------- |
 | Concatenate Non-Zero Digits and Multiply by Sum II | 🟡 Medium  |
 | Sum of GCD of Formed Pairs                         | 🟡 Medium  |
 
 ---
+
 # 📂 Repository Structure
 
 ```text
@@ -309,7 +341,13 @@ LeetCode-Solutions
 │   ├── LC75_SortColors.java
 │   ├── LC88_MergeSortedArray.java
 │   ├── LC121_BestTimeToBuySellStock.java
+│   ├── LC1260_Shift2DGrid.java
+│   ├── LC1331_RankTransformOfAnArray.java
+│   ├── LC1386_CinemaSeatAllocation.java
+│   ├── LC1464_MaximumProductOfTwoElementsInAnArray.java
+│   ├── LC1502_CanMakeArithmeticProgressionFromSequence.java
 │   ├── LC189_RotateArray.java
+│   ├── LC2091_RemovingMinimumAndMaximumFromArray.java
 │   ├── LC217_ContainsDuplicate.java
 │   ├── LC238_ProductOfArrayExceptSelf.java
 │   ├── LC268_MissingNumber.java
@@ -318,24 +356,24 @@ LeetCode-Solutions
 │   ├── LC350_IntersectionOfTwoArraysII.java
 │   ├── LC611_ValidTriangleNumber.java
 │   ├── LC628_MaximumProductOfThreeNumbers.java
-│   ├── LC733_FloodFill.java
 │   ├── LC766_ToeplitzMatrix.java
-│   ├── LC867_TransposeMatrix.java
-│   ├── LC1260_Shift2DGrid.java
-│   ├── LC1331_RankTransformOfAnArray.java
-│   ├── LC1386_CinemaSeatAllocation.java
-│   ├── LC1464_MaximumProductOfTwoElementsInAnArray.java
-│   ├── LC1502_CanMakeArithmeticProgressionFromSequence.java
+│   ├── LC2545_SortTheStudentsByTheirKthScore.java
 │   ├── LC2958_LengthOfLongestSubarrayWithAtMostKFrequency.java
 │   ├── LC2996_SmallestMissingIntegerGreaterThanSequentialPrefixSum.java
 │   ├── LC3005_CountElementsWithMaximumFrequency.java
 │   ├── LC3069_DistributeElementsIntoTwoArraysI.java
 │   ├── LC3116_KthSmallestAmountWithSingleDenominationCombination.java
+│   ├── LC3264_FinalArrayStateAfterKMultiplicationOperationsI.java
 │   ├── LC3471_FindTheLargestAlmostMissingInteger.java
 │   ├── LC3499_MaximizeActiveSectionWithTradeI.java
-│   ├── LC3501_MaximizeActiveSectionsWithTradeII.java
+│   ├── LC3501_MaximizeActiveSectionWithTradeII.java
 │   ├── LC3513_NumberOfUniqueXORTripletsI.java
-│   └── LC3514_NumberOfUniqueXORTripletsII.java
+│   ├── LC3514_NumberOfUniqueXORTripletsII.java
+│   ├── LC3731_FindMissingElements.java
+│   ├── LC2948_MakeLexicographicallySmallestArrayBySwappingElements.java
+│   ├── LC506_RelativeRanks.java
+│   ├── LC2404_MostFrequentEvenElement.java
+│   └── ...
 │
 ├── Strings
 │   ├── LC3_LongestSubstringWithoutRepeatingCharacters.java
@@ -343,19 +381,22 @@ LeetCode-Solutions
 │   ├── LC28_FindTheIndexOfTheFirstOccurrenceInAString.java
 │   ├── LC58_LengthOfLastWord.java
 │   ├── LC125_ValidPalindrome.java
+│   ├── LC1941_CheckIfAllCharactersHaveEqualNumberOfOccurrences.java
 │   ├── LC205_IsomorphicStrings.java
-│   ├── LC2213_LongestSubstringOfOneRepeatingCharacter.java
 │   ├── LC242_ValidAnagram.java
+│   ├── LC344_ReverseString.java
+│   ├── LC443_StringCompression.java
+│   ├── LC806_NumberOfLinesToWriteString.java
+│   ├── LC819_MostCommonWord.java
+│   ├── LC1876_SubstringsOfSizeThreeWithDistinctCharacters.java
+│   ├── LC2213_LongestSubstringOfOneRepeatingCharacter.java
 │   ├── LC2904_ShortestAndLexicographicallySmallestBeautifulString.java
 │   ├── LC3090_MaximumLengthSubstringWithTwoOccurrences.java
 │   ├── LC3228_MaximizeActiveSectionsAfterTradeI.java
-│   ├── LC344_ReverseString.java
 │   ├── LC3517_SmallestPalindromicRearrangementI.java
+│   ├── LC3518_SmallestPalindromicRearrangementII.java
 │   ├── LC3720_LexicographicallySmallestPermutationGreaterThanTarget.java
-│   ├── LC3734_LexicographicallySmallestPalindromicPermutationGreaterThanTarget.java
-│   ├── LC443_StringCompression.java
-│   ├── LC806_NumberOfLinesToWriteString.java
-│   └── LC819_MostCommonWord.java
+│   └── LC3734_LexicographicallySmallestPalindromicPermutationGreaterThanTarget.java
 │
 ├── LinkedList
 │   ├── LC2_AddTwoNumbers.java
@@ -375,14 +416,15 @@ LeetCode-Solutions
 │
 ├── Stack
 │   ├── LC20_ValidParentheses.java
-│   ├── LC1021_RemoveOutermostParentheses.java
-│   ├── LC1047_RemoveAllAdjacentDuplicatesInString.java
-│   ├── LC1081_SmallestSubsequenceOfDistinctCharacters.java
-│   ├── LC1475_FinalPricesWithASpecialDiscountInAShop.java
 │   ├── LC150_EvaluateReversePolishNotation.java
 │   ├── LC155_MinStack.java
 │   ├── LC225_ImplementStackUsingQueues.java
 │   ├── LC227_BasicCalculatorII.java
+│   ├── LC739_DailyTemperatures.java
+│   ├── LC1021_RemoveOutermostParentheses.java
+│   ├── LC1047_RemoveAllAdjacentDuplicatesInString.java
+│   ├── LC1081_SmallestSubsequenceOfDistinctCharacters.java
+│   ├── LC1475_FinalPricesWithASpecialDiscountInAShop.java
 │   └── LC2696_MinimumStringLengthAfterRemovingSubstrings.java
 │
 ├── Queue
@@ -419,6 +461,10 @@ LeetCode-Solutions
 │   ├── LC1008_ConstructBinarySearchTreeFromPreorderTraversal.java
 │   └── LC1382_BalanceABinarySearchTree.java
 │
+├── Heap
+│   ├── LC295_FindMedianFromDataStream.java
+│   └── LC703_KthLargestElementInAStream.java
+│
 ├── Graphs
 │   ├── LC547_NumberOfProvinces.java
 │   ├── LC733_FloodFill.java
@@ -429,8 +475,11 @@ LeetCode-Solutions
 │   ├── LC2316_CountUnreachablePairsOfNodesInAnUndirectedGraph.java
 │   ├── LC2359_FindClosestNodeToGivenTwoNodes.java
 │   ├── LC2685_CountTheNumberOfCompleteComponents.java
+│   ├── LC3310_RemoveMethodsFromProject.java
 │   ├── LC3514_PathExistenceQueriesInAGraphI.java
-│   └── LC3515_PathExistenceQueriesInAGraphII.java
+│   ├── LC3515_PathExistenceQueriesInAGraphII.java
+│   ├── LC3532_PathExistenceQueriesInAGraphI.java
+│   └── ...
 │
 ├── DynamicProgramming
 │   ├── LC213_HouseRobberII.java
@@ -465,11 +514,13 @@ LeetCode-Solutions
 │   ├── LC1979_FindGreatestCommonDivisorOfArray.java
 │   ├── LC2029_StoneGameIX.java
 │   ├── LC3116_KthSmallestAmountWithSingleDenominationCombination.java
+│   ├── LC3345_SmallestDivisibleDigitProductI.java
 │   ├── LC3348_SmallestDivisibleDigitProductII.java
 │   ├── LC3536_MaximumProductOfTwoDigits.java
 │   ├── LC3622_CheckDivisibilityByDigitSumAndProduct.java
 │   ├── LC3658_GCDOfOddAndEvenSums.java
-│   └── LC3718_SmallestMissingMultipleOfK.java
+│   ├── LC3718_SmallestMissingMultipleOfK.java
+│   └── ...
 │
 ├── BinarySearch
 │   ├── LC35_SearchInsertPosition.java
@@ -481,6 +532,7 @@ LeetCode-Solutions
 │
 └── README.md
 ```
+
 ---
 
 # 🚀 Current Targets
@@ -502,6 +554,7 @@ LeetCode-Solutions
 * Dynamic Programming
 * Graph Algorithms
 * Tree Algorithms
+* Heap & Priority Queue
 * Bit Manipulation
 * Sliding Window
 * Two Pointers
